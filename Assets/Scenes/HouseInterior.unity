@@ -6632,6 +6632,18 @@ PrefabInstance:
       propertyPath: m_FontData.m_FontSize
       value: 15
       objectReference: {fileID: 0}
+    - target: {fileID: 8537908797380368846, guid: 200fba58ac338634ea188e90bf9a6980, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 8537908798053716724, guid: 200fba58ac338634ea188e90bf9a6980, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 8537908798053716724, guid: 200fba58ac338634ea188e90bf9a6980, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 200
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 200fba58ac338634ea188e90bf9a6980, type: 3}
 --- !u!1 &1876965085
@@ -8495,6 +8507,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 5849563439329845746, guid: bf64e0e6f80449e4caddfc2e8e23d516, type: 3}
     - target: {fileID: 8449666815217602246, guid: edfa5d4120def0a4c89c7a0e940b5cf0, type: 3}
+      propertyPath: sceneToLoad
+      value: SatieScene
+      objectReference: {fileID: 0}
+    - target: {fileID: 8449666815217602246, guid: edfa5d4120def0a4c89c7a0e940b5cf0, type: 3}
       propertyPath: fadeOutPanel
       value: 
       objectReference: {fileID: 1416314782160265470, guid: e6579b5450509ce48a8e4b8d1139d9c2, type: 3}
@@ -8504,11 +8520,11 @@ PrefabInstance:
       objectReference: {fileID: 11400000, guid: 9cc7a4000b6311d40badd0214b28a512, type: 2}
     - target: {fileID: 8449666815217602246, guid: edfa5d4120def0a4c89c7a0e940b5cf0, type: 3}
       propertyPath: playerPosition.x
-      value: 4.5
+      value: 8.5
       objectReference: {fileID: 0}
     - target: {fileID: 8449666815217602246, guid: edfa5d4120def0a4c89c7a0e940b5cf0, type: 3}
       propertyPath: playerPosition.y
-      value: -6
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: edfa5d4120def0a4c89c7a0e940b5cf0, type: 3}
@@ -8683,7 +8699,7 @@ GameObject:
   - component: {fileID: 9205081499415721258}
   - component: {fileID: 9205081499415721259}
   m_Layer: 0
-  m_Name: Treasure Chest
+  m_Name: Book
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

@@ -1899,6 +1899,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5141267282014914258, guid: a0dc48806c5158241aacd03e8e98850e, type: 3}
+      propertyPath: mask
+      value: 
+      objectReference: {fileID: 11400000, guid: 192d95e422378bf4797b87b79f5e0b19, type: 2}
+    - target: {fileID: 5141267282014914258, guid: a0dc48806c5158241aacd03e8e98850e, type: 3}
       propertyPath: speed
       value: 2
       objectReference: {fileID: 0}
@@ -1922,6 +1926,10 @@ PrefabInstance:
       propertyPath: dialogBox
       value: 
       objectReference: {fileID: 8537908797727810724}
+    - target: {fileID: 5141267282014914258, guid: a0dc48806c5158241aacd03e8e98850e, type: 3}
+      propertyPath: raiseItem
+      value: 
+      objectReference: {fileID: 11400000, guid: 5812ae4c2d7a37c4ab715dd5b83a10c5, type: 2}
     - target: {fileID: 5141267282014914258, guid: a0dc48806c5158241aacd03e8e98850e, type: 3}
       propertyPath: dialogText
       value: 
