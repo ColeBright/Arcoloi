@@ -17,6 +17,8 @@ public class BoundedNPC : Sign
     public float minWaitTime;
     public float maxWaitTime;
     private float waitTimeSeconds;
+    public Inventory playerInventory;
+    public item letter;
 
     // Start is called before the first frame update
     void Start()
@@ -32,6 +34,10 @@ public class BoundedNPC : Sign
     // Update is called once per frame
     public override void Update()
     {
+        if (playerInRange && playerInventory.items.Contains(letter))
+        {
+            dialog = "Oh, is that a letter? Someone told me to give this to a dude with felt hat, beard, and glasses. Here ya go!";
+        }
         base.Update();
         if (isMoving)
         {

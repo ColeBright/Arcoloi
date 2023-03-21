@@ -1545,6 +1545,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 937503550692621374, guid: 43c66ce8cdbc8854995ce8da88dcd519, type: 3}
+      propertyPath: speed
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 937503552093063237, guid: 43c66ce8cdbc8854995ce8da88dcd519, type: 3}
       propertyPath: m_LocalPosition.x
       value: 4
@@ -1903,6 +1907,10 @@ PrefabInstance:
       value: Sup brah
       objectReference: {fileID: 0}
     - target: {fileID: 5141267282014914258, guid: a0dc48806c5158241aacd03e8e98850e, type: 3}
+      propertyPath: letter
+      value: 
+      objectReference: {fileID: 11400000, guid: c57661c0c654dd34a9aa8720ce2f6cb2, type: 2}
+    - target: {fileID: 5141267282014914258, guid: a0dc48806c5158241aacd03e8e98850e, type: 3}
       propertyPath: moveTime
       value: 1.5
       objectReference: {fileID: 0}
@@ -1934,6 +1942,10 @@ PrefabInstance:
       propertyPath: minWaitTime
       value: 0.1
       objectReference: {fileID: 0}
+    - target: {fileID: 5141267282014914258, guid: a0dc48806c5158241aacd03e8e98850e, type: 3}
+      propertyPath: playerInventory
+      value: 
+      objectReference: {fileID: 11400000, guid: f1f985bedd8a2c44688254d19a2f5791, type: 2}
     - target: {fileID: 5141267282014914268, guid: a0dc48806c5158241aacd03e8e98850e, type: 3}
       propertyPath: m_BodyType
       value: 1

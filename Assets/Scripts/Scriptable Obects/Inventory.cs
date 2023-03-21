@@ -8,6 +8,7 @@ public class Inventory : ScriptableObject
     public item currentItem;
     public List<item> items = new List<item>();
     public int numberOfKeys;
+    public bool hasLetter;
 
     public void AddItem(item itemToAdd)
     {
