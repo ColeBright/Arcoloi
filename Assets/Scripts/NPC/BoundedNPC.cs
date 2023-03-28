@@ -42,7 +42,6 @@ public class BoundedNPC : Sign
                 playerInventory.AddItem(mask);
                 playerInventory.currentItem = mask;
                 raiseItem.Raise();
-                context.Raise();
         }
         //if (playerInventory.items.Contains(mask))
         //{
