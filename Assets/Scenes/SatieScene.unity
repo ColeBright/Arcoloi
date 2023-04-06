@@ -627,7 +627,7 @@ RectTransform:
   m_Children:
   - {fileID: 1754318310}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -955,7 +955,7 @@ Transform:
   - {fileID: 1543209504}
   - {fileID: 976781198}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &367182345
 GameObject:
@@ -1337,7 +1337,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &409197534
 MonoBehaviour:
@@ -1545,6 +1545,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 937503550692621374, guid: 43c66ce8cdbc8854995ce8da88dcd519, type: 3}
+      propertyPath: speed
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 937503552093063237, guid: 43c66ce8cdbc8854995ce8da88dcd519, type: 3}
       propertyPath: m_LocalPosition.x
       value: 4
@@ -1619,6 +1623,115 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 43c66ce8cdbc8854995ce8da88dcd519, type: 3}
+--- !u!1 &693122692 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1783907119256339831, guid: 06aebc457bc83c84a94c0fe9149e6ffb, type: 3}
+  m_PrefabInstance: {fileID: 766166059}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &693122693
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 693122692}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ff36963c5f3fdf43b26263de441445c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerInRange: 0
+  context: {fileID: 11400000, guid: c3213afdc691cdc439c533e3da81f42e, type: 2}
+  dialogBox: {fileID: 2102362612}
+  dialogText: {fileID: 1401175662}
+  dialog: ...What do you expect a statue to say? Maybe try something on that would
+    scare it to life.
+  playerInventory: {fileID: 11400000, guid: f1f985bedd8a2c44688254d19a2f5791, type: 2}
+  mask: {fileID: 11400000, guid: 192d95e422378bf4797b87b79f5e0b19, type: 2}
+  crescentMoon: {fileID: 11400000, guid: b08855e52fdf70a489f17074e5c8f78c, type: 2}
+  raiseItem: {fileID: 11400000, guid: 5812ae4c2d7a37c4ab715dd5b83a10c5, type: 2}
+--- !u!1001 &766166059
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1328935492878268301, guid: 06aebc457bc83c84a94c0fe9149e6ffb, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1328935492878268301, guid: 06aebc457bc83c84a94c0fe9149e6ffb, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1783907119256339831, guid: 06aebc457bc83c84a94c0fe9149e6ffb, type: 3}
+      propertyPath: m_Name
+      value: 'StatueSign '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2605310887991981373, guid: 06aebc457bc83c84a94c0fe9149e6ffb, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2605310887991981373, guid: 06aebc457bc83c84a94c0fe9149e6ffb, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.97
+      objectReference: {fileID: 0}
+    - target: {fileID: 2605310887991981373, guid: 06aebc457bc83c84a94c0fe9149e6ffb, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -3.23
+      objectReference: {fileID: 0}
+    - target: {fileID: 2605310887991981373, guid: 06aebc457bc83c84a94c0fe9149e6ffb, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2605310887991981373, guid: 06aebc457bc83c84a94c0fe9149e6ffb, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2605310887991981373, guid: 06aebc457bc83c84a94c0fe9149e6ffb, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2605310887991981373, guid: 06aebc457bc83c84a94c0fe9149e6ffb, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2605310887991981373, guid: 06aebc457bc83c84a94c0fe9149e6ffb, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2605310887991981373, guid: 06aebc457bc83c84a94c0fe9149e6ffb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2605310887991981373, guid: 06aebc457bc83c84a94c0fe9149e6ffb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2605310887991981373, guid: 06aebc457bc83c84a94c0fe9149e6ffb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7576191134096616997, guid: 06aebc457bc83c84a94c0fe9149e6ffb, type: 3}
+      propertyPath: dialog
+      value: ...What do you expect a statue to say? Maybe try something on that would
+        scare it to life.
+      objectReference: {fileID: 0}
+    - target: {fileID: 7576191134096616997, guid: 06aebc457bc83c84a94c0fe9149e6ffb, type: 3}
+      propertyPath: dialogBox
+      value: 
+      objectReference: {fileID: 2102362612}
+    - target: {fileID: 7576191134096616997, guid: 06aebc457bc83c84a94c0fe9149e6ffb, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7576191134096616997, guid: 06aebc457bc83c84a94c0fe9149e6ffb, type: 3}
+      propertyPath: dialogText
+      value: 
+      objectReference: {fileID: 1401175662}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 06aebc457bc83c84a94c0fe9149e6ffb, type: 3}
 --- !u!4 &840005978 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8116817931864468726, guid: d7225f1c55235584197d9bdcffaae1df, type: 3}
@@ -1840,7 +1953,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 5141267281547240683, guid: a0dc48806c5158241aacd03e8e98850e, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5141267281547240683, guid: a0dc48806c5158241aacd03e8e98850e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1895,6 +2008,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5141267282014914258, guid: a0dc48806c5158241aacd03e8e98850e, type: 3}
+      propertyPath: mask
+      value: 
+      objectReference: {fileID: 11400000, guid: 192d95e422378bf4797b87b79f5e0b19, type: 2}
+    - target: {fileID: 5141267282014914258, guid: a0dc48806c5158241aacd03e8e98850e, type: 3}
       propertyPath: speed
       value: 2
       objectReference: {fileID: 0}
@@ -1902,6 +2019,10 @@ PrefabInstance:
       propertyPath: dialog
       value: Sup brah
       objectReference: {fileID: 0}
+    - target: {fileID: 5141267282014914258, guid: a0dc48806c5158241aacd03e8e98850e, type: 3}
+      propertyPath: letter
+      value: 
+      objectReference: {fileID: 11400000, guid: c57661c0c654dd34a9aa8720ce2f6cb2, type: 2}
     - target: {fileID: 5141267282014914258, guid: a0dc48806c5158241aacd03e8e98850e, type: 3}
       propertyPath: moveTime
       value: 1.5
@@ -1914,6 +2035,10 @@ PrefabInstance:
       propertyPath: dialogBox
       value: 
       objectReference: {fileID: 8537908797727810724}
+    - target: {fileID: 5141267282014914258, guid: a0dc48806c5158241aacd03e8e98850e, type: 3}
+      propertyPath: raiseItem
+      value: 
+      objectReference: {fileID: 11400000, guid: 5812ae4c2d7a37c4ab715dd5b83a10c5, type: 2}
     - target: {fileID: 5141267282014914258, guid: a0dc48806c5158241aacd03e8e98850e, type: 3}
       propertyPath: dialogText
       value: 
@@ -1934,6 +2059,10 @@ PrefabInstance:
       propertyPath: minWaitTime
       value: 0.1
       objectReference: {fileID: 0}
+    - target: {fileID: 5141267282014914258, guid: a0dc48806c5158241aacd03e8e98850e, type: 3}
+      propertyPath: playerInventory
+      value: 
+      objectReference: {fileID: 11400000, guid: f1f985bedd8a2c44688254d19a2f5791, type: 2}
     - target: {fileID: 5141267282014914268, guid: a0dc48806c5158241aacd03e8e98850e, type: 3}
       propertyPath: m_BodyType
       value: 1
@@ -29241,7 +29370,7 @@ Transform:
   - {fileID: 884759161}
   - {fileID: 1852526178}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1199245139
 GameObject:
@@ -29755,6 +29884,86 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8116817931864468726, guid: d7225f1c55235584197d9bdcffaae1df, type: 3}
   m_PrefabInstance: {fileID: 274847846}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1401175660
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1401175661}
+  - component: {fileID: 1401175663}
+  - component: {fileID: 1401175662}
+  m_Layer: 5
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1401175661
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1401175660}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2102362613}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 1.321, y: 2.581}
+  m_SizeDelta: {x: 578.67, y: 121.732}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1401175662
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1401175660}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: c87539ceb432ae349ac73c2c909426ff, type: 3}
+    m_FontSize: 15
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 1
+    m_MaxSize: 40
+    m_Alignment: 0
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: ...What do you expect a statue to say? Maybe try something on that would
+    scare it to life.
+--- !u!222 &1401175663
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1401175660}
+  m_CullTransparentMesh: 1
 --- !u!1 &1436559203
 GameObject:
   m_ObjectHideFlags: 0
@@ -29839,7 +30048,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1436559207
 MonoBehaviour:
@@ -30657,7 +30866,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1524448248
 PrefabInstance:
@@ -63862,7 +64071,7 @@ Transform:
   - {fileID: 1871461884}
   - {fileID: 1089981225}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2038560132
 PrefabInstance:
@@ -64052,6 +64261,82 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8116817931864468726, guid: d7225f1c55235584197d9bdcffaae1df, type: 3}
   m_PrefabInstance: {fileID: 1625363876}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2102362612
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2102362613}
+  - component: {fileID: 2102362615}
+  - component: {fileID: 2102362614}
+  m_Layer: 5
+  m_Name: StatueDialog
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &2102362613
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2102362612}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1401175661}
+  m_Father: {fileID: 8537908797103037009}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 0}
+  m_AnchoredPosition: {x: 3.617, y: 104}
+  m_SizeDelta: {x: 694.834, y: 182.22}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2102362614
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2102362612}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 6047981793563322428, guid: d3f0bfca202bf0846a88f16bd8cebfa1, type: 3}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &2102362615
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2102362612}
+  m_CullTransparentMesh: 1
 --- !u!1001 &2121995364
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -64065,7 +64350,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3211411756019046475, guid: ca452a9dc7a35d840a6a8ded3f175bf0, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 3211411756019046475, guid: ca452a9dc7a35d840a6a8ded3f175bf0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -64583,8 +64868,9 @@ RectTransform:
   - {fileID: 8537908796685856291}
   - {fileID: 8537908797727810723}
   - {fileID: 8537908797049670106}
+  - {fileID: 2102362613}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}

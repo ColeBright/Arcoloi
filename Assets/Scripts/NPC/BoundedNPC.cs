@@ -17,6 +17,10 @@ public class BoundedNPC : Sign
     public float minWaitTime;
     public float maxWaitTime;
     private float waitTimeSeconds;
+    public Inventory playerInventory;
+    public item letter;
+    public item mask;
+    public SignalSender raiseItem;
 
     // Start is called before the first frame update
     void Start()
@@ -32,7 +36,18 @@ public class BoundedNPC : Sign
     // Update is called once per frame
     public override void Update()
     {
-        base.Update();
+        if (playerInRange && playerInventory.items.Contains(letter))
+        {
+                dialog = "Oh, is that a letter? Someone told me to give this pear to a dude with felt hat, beard, and glasses. But you took a long time so I ate it. Uh, but you can have this mask!";
+                playerInventory.AddItem(mask);
+                playerInventory.currentItem = mask;
+                raiseItem.Raise();
+        }
+        //if (playerInventory.items.Contains(mask))
+        //{
+        //    dialog = "Yeah, sorry about that... But hopefully that mask comes in handy.. I love wearing it and seeing everyone's reactions. BOO!";
+        //}
+            base.Update();
         if (isMoving)
         {
             moveTimeSeconds -= Time.deltaTime;

@@ -9,10 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18b911c354bb69c44a30d5e84fc3e2c8, type: 3}
-  m_Name: PlayerInventory
+  m_Script: {fileID: 11500000, guid: d984c95d0e5deba4d93ae565bb0af715, type: 3}
+  m_Name: Mask
   m_EditorClassIdentifier: 
-  currentItem: {fileID: 11400000, guid: b08855e52fdf70a489f17074e5c8f78c, type: 2}
-  items: []
-  numberOfKeys: 18
-  hasLetter: 0
+  itemSprite: {fileID: -3374056713385881089, guid: 10b50adc02ebe5348b6d670006e7fe80, type: 3}
+  itemDescription: A mask! but not a pear..
+  isKey: 0
