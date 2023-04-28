@@ -1,0 +1,111 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &2865911155449376217
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1328935492878268301, guid: 06aebc457bc83c84a94c0fe9149e6ffb, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1328935492878268301, guid: 06aebc457bc83c84a94c0fe9149e6ffb, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1783907119256339831, guid: 06aebc457bc83c84a94c0fe9149e6ffb, type: 3}
+      propertyPath: m_Name
+      value: 'StatueSign '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2605310887991981373, guid: 06aebc457bc83c84a94c0fe9149e6ffb, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2605310887991981373, guid: 06aebc457bc83c84a94c0fe9149e6ffb, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.97
+      objectReference: {fileID: 0}
+    - target: {fileID: 2605310887991981373, guid: 06aebc457bc83c84a94c0fe9149e6ffb, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -3.23
+      objectReference: {fileID: 0}
+    - target: {fileID: 2605310887991981373, guid: 06aebc457bc83c84a94c0fe9149e6ffb, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2605310887991981373, guid: 06aebc457bc83c84a94c0fe9149e6ffb, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2605310887991981373, guid: 06aebc457bc83c84a94c0fe9149e6ffb, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2605310887991981373, guid: 06aebc457bc83c84a94c0fe9149e6ffb, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2605310887991981373, guid: 06aebc457bc83c84a94c0fe9149e6ffb, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2605310887991981373, guid: 06aebc457bc83c84a94c0fe9149e6ffb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2605310887991981373, guid: 06aebc457bc83c84a94c0fe9149e6ffb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2605310887991981373, guid: 06aebc457bc83c84a94c0fe9149e6ffb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7576191134096616997, guid: 06aebc457bc83c84a94c0fe9149e6ffb, type: 3}
+      propertyPath: dialog
+      value: ...What do you expect a statue to say? Maybe try something on that would
+        scare it to life.
+      objectReference: {fileID: 0}
+    - target: {fileID: 7576191134096616997, guid: 06aebc457bc83c84a94c0fe9149e6ffb, type: 3}
+      propertyPath: dialogBox
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7576191134096616997, guid: 06aebc457bc83c84a94c0fe9149e6ffb, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7576191134096616997, guid: 06aebc457bc83c84a94c0fe9149e6ffb, type: 3}
+      propertyPath: dialogText
+      value: 
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 06aebc457bc83c84a94c0fe9149e6ffb, type: 3}
+--- !u!1 &4540883036714248366 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1783907119256339831, guid: 06aebc457bc83c84a94c0fe9149e6ffb, type: 3}
+  m_PrefabInstance: {fileID: 2865911155449376217}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &693122693
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4540883036714248366}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ff36963c5f3fdf43b26263de441445c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerInRange: 0
+  context: {fileID: 11400000, guid: c3213afdc691cdc439c533e3da81f42e, type: 2}
+  dialogBox: {fileID: 0}
+  dialogText: {fileID: 0}
+  dialog: ...What do you expect a statue to say? Maybe try something on that would
+    scare it to life.
+  playerInventory: {fileID: 11400000, guid: f1f985bedd8a2c44688254d19a2f5791, type: 2}
+  mask: {fileID: 11400000, guid: 192d95e422378bf4797b87b79f5e0b19, type: 2}
+  crescentMoon: {fileID: 11400000, guid: b08855e52fdf70a489f17074e5c8f78c, type: 2}
+  raiseItem: {fileID: 11400000, guid: 5812ae4c2d7a37c4ab715dd5b83a10c5, type: 2}
