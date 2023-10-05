@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProjectInfo>
+	<Project Name="ZELDA_WwiseProject" GUID="{1D734644-9EB7-43EB-8715-31703BA98B1A}" Generator="2022.1.6.8263"/>
+	<CacheRoot>../../../../ZELDA_WwiseProject/.cache</CacheRoot>
+	<Platforms>
+		<Platform Name="Mac" GUID="{333389E8-6102-484A-8ABD-D6B2711DAE9D}" BasePlatform="Mac" BasePlatformGUID="{9C6217D5-DD11-4795-87C1-6CE02853C540}" Path="../../../../ZELDA_WwiseProject/GeneratedSoundBanks/Mac"/>
+		<Platform Name="Windows" GUID="{F0CE4B52-3F57-4434-96A3-FC5FF5771AC0}" BasePlatform="Windows" BasePlatformGUID="{6E0CB257-C6C8-4C5C-8366-2740DFC441EB}" Path="../../../../ZELDA_WwiseProject/GeneratedSoundBanks/Windows"/>
+	</Platforms>
+	<Languages>
+		<Language Name="English(US)" Id="684519430" GUID="{ADAA66FB-DD16-4243-AC43-4353E9B62D16}" Default="true" UseAsStandIn="true"/>
+	</Languages>
+	<FileHash>{39216662-3C19-23B0-B79E-9276C61D05BA}</FileHash>
+</ProjectInfo>

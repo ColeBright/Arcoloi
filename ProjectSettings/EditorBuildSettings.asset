@@ -20,4 +20,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Dungeon.unity
     guid: b65e62353c6fbb74283183f27f2de85d
+  - enabled: 1
+    path: Assets/Scenes/Mosque d'Arceuil.unity
+    guid: 8eef0f69e2abe514180cec5787df6ebd
+  - enabled: 1
+    path: Assets/Scenes/Eglise de Saint-Denys.unity
+    guid: 9c205b5d2c2ead041a38a61ee13484ad
   m_configObjects: {}
