@@ -1,0 +1,374 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f96b6642670e0b749add3ee2ad2ce397, type: 3}
+  m_Name: AkWwiseProjectData
+  m_EditorClassIdentifier: 
+  AcousticTextureWwu:
+  - PhysicalPath: Virtual Acoustics\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Virtual Acoustics
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: d579457609305345adafd2bd6f387909
+    ParentPath: Virtual Acoustics\Default Work Unit
+    guid: d579457609305345adafd2bd6f387909
+    GuidInternal: 
+    m_lastTime: -8585092293330870971
+    List: []
+  AuxBusWwu:
+  - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Master-Mixer Hierarchy
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 433e97c3603f5647a9ab61d45aa7da3a
+    ParentPath: Master-Mixer Hierarchy\Default Work Unit
+    guid: 433e97c3603f5647a9ab61d45aa7da3a
+    GuidInternal: 
+    m_lastTime: -8585092293331659030
+    List:
+    - name: Master Audio Bus
+      guid: d8a41415a61d2a41a17e75ca0c2149f3
+      id: 3803692087
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 433e97c3603f5647a9ab61d45aa7da3a
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus
+  BankWwu:
+  - PhysicalPath: SoundBanks\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: SoundBanks
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 542eddefa148494587aad4eedbb15515
+    ParentPath: SoundBanks\Default Work Unit
+    guid: 542eddefa148494587aad4eedbb15515
+    GuidInternal: 
+    m_lastTime: -8585057627815511753
+    List:
+    - name: Main
+      guid: 6694ab6fa2e4bf47bd1e8be122aebbbf
+      id: 3161908922
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 542eddefa148494587aad4eedbb15515
+      - ElementName: Main
+        ObjectType: 7
+        guid: 6694ab6fa2e4bf47bd1e8be122aebbbf
+      Path: SoundBanks\Default Work Unit\Main
+  EventWwu:
+  - PhysicalPath: Events\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Events
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 30074f8675440444b852ac0666c88b59
+    ParentPath: Events\Default Work Unit
+    guid: 30074f8675440444b852ac0666c88b59
+    GuidInternal: 
+    m_lastTime: -8585050650206964559
+    List:
+    - name: Play_Themes
+      guid: d614691477162e4b89a46449656e096f
+      id: 4209088188
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 30074f8675440444b852ac0666c88b59
+      - ElementName: Play_Themes
+        ObjectType: 3
+        guid: d614691477162e4b89a46449656e096f
+      Path: Events\Default Work Unit\Play_Themes
+      maxAttenuation: 0
+      maxDuration: Infinity
+      minDuration: 46.285667
+    - name: PlayRegions
+      guid: e35ac30efc66c349a6a5b2127d7b864f
+      id: 2774314118
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 30074f8675440444b852ac0666c88b59
+      - ElementName: PlayRegions
+        ObjectType: 3
+        guid: e35ac30efc66c349a6a5b2127d7b864f
+      Path: Events\Default Work Unit\PlayRegions
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+  RtpcWwu:
+  - PhysicalPath: Game Parameters\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Game Parameters
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: bab2981ec252714886d64c301720d5fb
+    ParentPath: Game Parameters\Default Work Unit
+    guid: bab2981ec252714886d64c301720d5fb
+    GuidInternal: 
+    m_lastTime: -8585092293330315625
+    List: []
+  StateWwu:
+  - PhysicalPath: States\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: States
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: a9a71568ea76314ebea1763fa4bcb2a4
+    ParentPath: States\Default Work Unit
+    guid: a9a71568ea76314ebea1763fa4bcb2a4
+    GuidInternal: 
+    m_lastTime: -8585050656242147710
+    List:
+    - name: Regions
+      guid: 89caf52b78d0584688a7a3796d466eb1
+      id: 2091077764
+      PathAndIcons:
+      - ElementName: States
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: a9a71568ea76314ebea1763fa4bcb2a4
+      - ElementName: Regions
+        ObjectType: 9
+        guid: 89caf52b78d0584688a7a3796d466eb1
+      Path: States\Default Work Unit\Regions
+      values:
+      - name: HouseCleared
+        guid: 6aeed937370fed42a6d3b90f4a9504a1
+        id: 996092293
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: a9a71568ea76314ebea1763fa4bcb2a4
+        - ElementName: Regions
+          ObjectType: 9
+          guid: 89caf52b78d0584688a7a3796d466eb1
+        - ElementName: HouseCleared
+          ObjectType: 8
+          guid: 6aeed937370fed42a6d3b90f4a9504a1
+      - name: HouseNotCleared
+        guid: 1c89ecfe70528a41a78a0aaa5e36066f
+        id: 2386522458
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: a9a71568ea76314ebea1763fa4bcb2a4
+        - ElementName: Regions
+          ObjectType: 9
+          guid: 89caf52b78d0584688a7a3796d466eb1
+        - ElementName: HouseNotCleared
+          ObjectType: 8
+          guid: 1c89ecfe70528a41a78a0aaa5e36066f
+      - name: None
+        guid: 0dabd3d68566944eae436362ba413728
+        id: 748895195
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: a9a71568ea76314ebea1763fa4bcb2a4
+        - ElementName: Regions
+          ObjectType: 9
+          guid: 89caf52b78d0584688a7a3796d466eb1
+        - ElementName: None
+          ObjectType: 8
+          guid: 0dabd3d68566944eae436362ba413728
+      - name: NPCCleared
+        guid: bbc6a7481d7f33468d7350fc6b23ad5b
+        id: 921132058
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: a9a71568ea76314ebea1763fa4bcb2a4
+        - ElementName: Regions
+          ObjectType: 9
+          guid: 89caf52b78d0584688a7a3796d466eb1
+        - ElementName: NPCCleared
+          ObjectType: 8
+          guid: bbc6a7481d7f33468d7350fc6b23ad5b
+      - name: OverWorldDefault
+        guid: 8f75048a3893af4e942aebbd31df1437
+        id: 3116030828
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: a9a71568ea76314ebea1763fa4bcb2a4
+        - ElementName: Regions
+          ObjectType: 9
+          guid: 89caf52b78d0584688a7a3796d466eb1
+        - ElementName: OverWorldDefault
+          ObjectType: 8
+          guid: 8f75048a3893af4e942aebbd31df1437
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+  SwitchWwu:
+  - PhysicalPath: Switches\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Switches
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: c1bc2d804c1a024eba8da193b55245cb
+    ParentPath: Switches\Default Work Unit
+    guid: c1bc2d804c1a024eba8da193b55245cb
+    GuidInternal: 
+    m_lastTime: -8585058335208239676
+    List:
+    - name: ThemesGroup
+      guid: 0f9417f606753d4593ba3f439408e9a5
+      id: 890541936
+      PathAndIcons:
+      - ElementName: Switches
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: c1bc2d804c1a024eba8da193b55245cb
+      - ElementName: ThemesGroup
+        ObjectType: 11
+        guid: 0f9417f606753d4593ba3f439408e9a5
+      Path: Switches\Default Work Unit\ThemesGroup
+      values:
+      - name: CaveTheme
+        guid: 1410b87106d5ab4892e820bb106f33b0
+        id: 1661888377
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: c1bc2d804c1a024eba8da193b55245cb
+        - ElementName: ThemesGroup
+          ObjectType: 11
+          guid: 0f9417f606753d4593ba3f439408e9a5
+        - ElementName: CaveTheme
+          ObjectType: 10
+          guid: 1410b87106d5ab4892e820bb106f33b0
+      - name: DefaultTheme
+        guid: 7c027ee40bceba4781a8af257eaa964c
+        id: 824977647
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: c1bc2d804c1a024eba8da193b55245cb
+        - ElementName: ThemesGroup
+          ObjectType: 11
+          guid: 0f9417f606753d4593ba3f439408e9a5
+        - ElementName: DefaultTheme
+          ObjectType: 10
+          guid: 7c027ee40bceba4781a8af257eaa964c
+      - name: HouseThemeNotCleared
+        guid: 3bd2ee4e00096f4994cbd63e16776d28
+        id: 2034947975
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: c1bc2d804c1a024eba8da193b55245cb
+        - ElementName: ThemesGroup
+          ObjectType: 11
+          guid: 0f9417f606753d4593ba3f439408e9a5
+        - ElementName: HouseThemeNotCleared
+          ObjectType: 10
+          guid: 3bd2ee4e00096f4994cbd63e16776d28
+      - name: NPCCleared
+        guid: e4f3f17bf494cc45b2f4eed470dd1d84
+        id: 921132058
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: c1bc2d804c1a024eba8da193b55245cb
+        - ElementName: ThemesGroup
+          ObjectType: 11
+          guid: 0f9417f606753d4593ba3f439408e9a5
+        - ElementName: NPCCleared
+          ObjectType: 10
+          guid: e4f3f17bf494cc45b2f4eed470dd1d84
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+  TriggerWwu:
+  - PhysicalPath: Triggers\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Triggers
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 188e8b7a32cf69429b9f57210a9d3ee5
+    ParentPath: Triggers\Default Work Unit
+    guid: 188e8b7a32cf69429b9f57210a9d3ee5
+    GuidInternal: 
+    m_lastTime: -8585092293330491844
+    List: []
+  ExpandedFileSystemItemIds: 020000000300000004000000050000000600000007000000090000000a000000
+  ExpandedWaapiItemIds: 01000000020000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e000000100000001e0000001f00000020000000b0000000b1000000b2000000
+  AutoSyncSelection: 1
+  autoPopulateEnabled: 1
+  currentDataSource: 0
+  CurrentPluginConfig: 

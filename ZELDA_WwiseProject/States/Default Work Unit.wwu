@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{6815A7A9-76EA-4E31-BEA1-763FA4BCB2A4}" SchemaVersion="110">
+	<States>
+		<WorkUnit Name="Default Work Unit" ID="{6815A7A9-76EA-4E31-BEA1-763FA4BCB2A4}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="Regions" ID="{2BF5CA89-D078-4658-88A7-A3796D466EB1}">
+					<ChildrenList>
+						<State Name="None" ID="{D6D3AB0D-6685-4E94-AE43-6362BA413728}"/>
+						<State Name="NPCCleared" ID="{48A7C6BB-7F1D-4633-8D73-50FC6B23AD5B}"/>
+						<State Name="OverWorldDefault" ID="{8A04758F-9338-4EAF-942A-EBBD31DF1437}"/>
+						<State Name="HouseNotCleared" ID="{FEEC891C-5270-418A-A78A-0AAA5E36066F}"/>
+						<State Name="HouseCleared" ID="{37D9EE6A-0F37-42ED-A6D3-B90F4A9504A1}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>

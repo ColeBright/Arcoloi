@@ -144,6 +144,7 @@ SpriteAtlas:
   - {fileID: 7274838496166343488, guid: cd131224f9641c14f8718876562747b5, type: 3}
   - {fileID: -8506932439865520012, guid: cd131224f9641c14f8718876562747b5, type: 3}
   - {fileID: 21300000, guid: 19e163c4a851b8546bab498cb0e2fbf7, type: 3}
+  - {fileID: 21300000, guid: 63e02555265ec7445877d6ec1ea8f326, type: 3}
   - {fileID: 21300000, guid: cc620ad65f321414db1b1604311562f4, type: 3}
   - {fileID: 136123638574666257, guid: 9a9fea4918390bd488770078838eccca, type: 3}
   - {fileID: 293919518158258091, guid: 9a9fea4918390bd488770078838eccca, type: 3}
@@ -1218,6 +1219,7 @@ SpriteAtlas:
   - {fileID: -6960371683831875272, guid: 9a9fea4918390bd488770078838eccca, type: 3}
   - {fileID: 6469460937200175538, guid: 9a9fea4918390bd488770078838eccca, type: 3}
   - {fileID: 2924928888349640390, guid: 9a9fea4918390bd488770078838eccca, type: 3}
+  - {fileID: 21300000, guid: 2a8d636a23d15eb46ab81e4c7218b074, type: 3}
   - {fileID: -1986772863260763996, guid: d3f0bfca202bf0846a88f16bd8cebfa1, type: 3}
   - {fileID: 5760800594879907098, guid: d3f0bfca202bf0846a88f16bd8cebfa1, type: 3}
   - {fileID: 7597474578557255370, guid: d3f0bfca202bf0846a88f16bd8cebfa1, type: 3}
@@ -1879,6 +1881,7 @@ SpriteAtlas:
   - character_70
   - character_71
   - font
+  - erik
   - key
   - Overworld_827
   - Overworld_837
@@ -2953,6 +2956,7 @@ SpriteAtlas:
   - Overworld_623
   - Overworld_673
   - Overworld_129
+  - OGcharacter
   - objects_71
   - objects_70
   - objects_73
