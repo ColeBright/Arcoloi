@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5afb3aa43c4bc5e4196b00428b7ed1a9, type: 3}
+  m_Name: 4EEED23B-0900-496F-94CB-D63E16776D28
+  m_EditorClassIdentifier: 
+  objectName: HouseThemeNotCleared
+  id: 2034947975
+  guid: 4EEED23B-0900-496F-94CB-D63E16776D28
+  WwiseSwitchGroupReference: {fileID: 11400000, guid: 3d100f953492a8449b52a317c82015cc, type: 2}

@@ -1,0 +1,15 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	2091077764	Regions			\Default Work Unit\Regions	
+
+State	ID	Name	State Group			Notes
+	748895195	None	Regions			
+	921132058	NPCCleared	Regions			
+	3116030828	OverWorldDefault	Regions			
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+
+Audio Devices	ID	Name	Type				Notes
+	2317455096	No_Output	No Output			
+	3859886410	System	System			
+

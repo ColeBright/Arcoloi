@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{864F0730-4475-4404-B852-AC0666C88B59}" SchemaVersion="110">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{864F0730-4475-4404-B852-AC0666C88B59}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_Themes" ID="{146914D6-1677-4B2E-89A4-6449656E096F}">
+					<ChildrenList>
+						<Action Name="" ID="{DA52DA77-0CFC-431E-A447-4D2D028053C0}" ShortID="58964674">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Themes" ID="{2E9D1C92-179E-47E0-8D8D-D04F8E3F9BA2}" WorkUnitID="{2A8B9DC4-20F9-4EB6-8621-27C86C220B97}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="PlayRegions" ID="{0EC35AE3-66FC-49C3-A6A5-B2127D7B864F}">
+					<ChildrenList>
+						<Action Name="" ID="{C6005797-8F09-422D-A2F8-9F2FA4289F36}" ShortID="344153141">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Gnossiene" ID="{72588CDF-082E-43C0-A851-72DA8E9EBE8E}" WorkUnitID="{2A8B9DC4-20F9-4EB6-8621-27C86C220B97}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{D1A93DF9-3449-4D0F-A505-2E33E35F90A1}" ShortID="765751433">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Je Te Veux" ID="{272F2B8A-6C4C-42A7-B692-5B7F41DA6E4D}" WorkUnitID="{2A8B9DC4-20F9-4EB6-8621-27C86C220B97}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{2E6BFE8E-59FF-4E0B-A589-2939F4E1200B}" ShortID="878203838">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="HouseGnossiene" ID="{A39884ED-2388-4EE7-A8B0-7EF311F4085A}" WorkUnitID="{2A8B9DC4-20F9-4EB6-8621-27C86C220B97}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{616A3EEE-D3A8-4DC5-9456-66F4541684C1}" ShortID="553121125">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Chien" ID="{6A9023E0-D765-425F-B6CC-879CB631727E}" WorkUnitID="{2A8B9DC4-20F9-4EB6-8621-27C86C220B97}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

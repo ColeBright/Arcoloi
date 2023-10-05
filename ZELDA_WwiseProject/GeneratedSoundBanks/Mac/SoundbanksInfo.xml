@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="145">
+	<RootPaths>
+		<ProjectRoot>../..</ProjectRoot>
+		<SourceFilesRoot>../../.cache/Mac</SourceFilesRoot>
+		<SoundBanksRoot>.</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>.</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{ECF37A71-FBFD-333C-47DC-809F9E6468D8}">
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<Plugins>
+				<AudioDevices>
+					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
+					<Plugin Id="3859886410" Name="System" LibName="System" LibId="11403271"/>
+				</AudioDevices>
+			</Plugins>
+			<Busses>
+				<Bus Id="3803692087" Name="Master Audio Bus"/>
+			</Busses>
+			<StateGroups>
+				<StateGroup Id="2091077764" Name="Regions">
+					<States>
+						<State Id="748895195" Name="None"/>
+						<State Id="921132058" Name="NPCCleared"/>
+						<State Id="996092293" Name="HouseCleared"/>
+						<State Id="2386522458" Name="HouseNotCleared"/>
+						<State Id="3116030828" Name="OverWorldDefault"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
+			<SwitchGroups>
+				<SwitchGroup Id="890541936" Name="ThemesGroup">
+					<Switches>
+						<Switch Id="824977647" Name="DefaultTheme"/>
+						<Switch Id="921132058" Name="NPCCleared"/>
+						<Switch Id="1661888377" Name="CaveTheme"/>
+						<Switch Id="2034947975" Name="HouseThemeNotCleared"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+		</SoundBank>
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{ED6B5B98-AE59-3F63-3552-7E1B4BE547D5}">
+			<ShortName>Main</ShortName>
+			<Path>Main.bnk</Path>
+			<Media>
+				<File Id="313408916" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Gnossiene.wav</ShortName>
+					<CachePath>SFX/Gnossiene_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="455848326" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chien.wav</ShortName>
+					<CachePath>SFX/Chien_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="668385061" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>GnossieneCave.wav</ShortName>
+					<CachePath>SFX/GnossieneCave_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="910083615" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>HouseGnossiene.wav</ShortName>
+					<CachePath>SFX/HouseGnossiene_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="983872593" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Je Te Veux.wav</ShortName>
+					<CachePath>SFX/Je Te Veux_D79FB2B7.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="4209088188" Name="Play_Themes" DurationType="Infinite">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="890541936" Id="1661888377"/>
+							<MediaRefs>
+								<MediaRef Id="668385061"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="890541936" Id="2034947975"/>
+							<MediaRefs>
+								<MediaRef Id="910083615"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="890541936" Id="824977647" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="313408916"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="890541936" Id="921132058"/>
+							<MediaRefs>
+								<MediaRef Id="983872593"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="2774314118" Name="PlayRegions" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="313408916"/>
+						<MediaRef Id="455848326"/>
+						<MediaRef Id="910083615"/>
+						<MediaRef Id="983872593"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+			<SwitchGroups>
+				<SwitchGroup Id="890541936" Name="ThemesGroup">
+					<Switches>
+						<Switch Id="824977647" Name="DefaultTheme"/>
+						<Switch Id="921132058" Name="NPCCleared"/>
+						<Switch Id="1661888377" Name="CaveTheme"/>
+						<Switch Id="2034947975" Name="HouseThemeNotCleared"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{54335B67-1B54-FE03-E17C-5D0D490F30F2}</FileHash>
+</SoundBanksInfo>
