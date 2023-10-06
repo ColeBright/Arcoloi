@@ -1,0 +1,55 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2774314118	PlayRegions			\Default Work Unit\PlayRegions	
+	4209088188	Play_Themes			\Default Work Unit\Play_Themes	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	890541936	ThemesGroup			\Default Work Unit\ThemesGroup	
+
+Switch	ID	Name	Switch Group			Notes
+	824977647	DefaultTheme	ThemesGroup			
+	921132058	NPCCleared	ThemesGroup			
+	1661888377	CaveTheme	ThemesGroup			
+	2034947975	HouseThemeNotCleared	ThemesGroup			
+
+State Group	ID	Name			Wwise Object Path	Notes
+	2091077764	Regions			\Default Work Unit\Regions	
+
+State	ID	Name	State Group			Notes
+	748895195	None	Regions			
+	921132058	NPCCleared	Regions			
+	996092293	HouseCleared	Regions			
+	2386522458	HouseNotCleared	Regions			
+	3116030828	OverWorldDefault	Regions			
+	4175274475	StatueCleared	Regions			
+
+Custom State	ID	Name	State Group	Owner		Notes
+	20724741	StatueCleared	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\Chien		
+	32321524	HouseNotCleared	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\Chien		
+	54712188	HouseCleared	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\HouseGnossiene		
+	73838195	HouseCleared	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\Je Te Veux		
+	127887865	OverWorldDefault	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\Chien		
+	146259847	StatueCleared	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\Gnossiene		
+	309074953	OverWorldDefault	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\The Real Statue breh		
+	471779079	NPCCleared	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\Gnossiene		
+	517430492	NPCCleared	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\Je Te Veux		
+	543207806	HouseNotCleared	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\Je Te Veux		
+	553341036	StatueCleared	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\HouseGnossiene		
+	560178564	HouseNotCleared	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\Gnossiene		
+	572924620	HouseNotCleared	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\The Real Statue breh		
+	645505795	NPCCleared	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\HouseGnossiene		
+	688306111	HouseCleared	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\Gnossiene		
+	722567741	HouseCleared	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\The Real Statue breh		
+	907078472	StatueCleared	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\Je Te Veux		
+	930190037	OverWorldDefault	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\Je Te Veux		
+	1024057157	HouseCleared	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\Chien		
+	1041293850	NPCCleared	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\The Real Statue breh		
+	1069739571	OverWorldDefault	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\HouseGnossiene		
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	313408916	Gnossiene	C:\Users\coleb\OneDrive\Desktop\ZELDA\ZELDA_WwiseProject\.cache\Mac\SFX\Gnossiene_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Themes\Gnossiene		10666604
+	455848326	Chien	C:\Users\coleb\OneDrive\Desktop\ZELDA\ZELDA_WwiseProject\.cache\Mac\SFX\Chien_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Themes\Chien		5880096
+	668385061	GnossieneCave	C:\Users\coleb\OneDrive\Desktop\ZELDA\ZELDA_WwiseProject\.cache\Mac\SFX\GnossieneCave_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Themes\GnossieneCave		10666604
+	804276963	The Real Statue breh	C:\Users\coleb\OneDrive\Desktop\ZELDA\ZELDA_WwiseProject\.cache\Mac\SFX\The Real Statue breh_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Themes\The Real Statue breh		4939296
+	910083615	HouseGnossiene	C:\Users\coleb\OneDrive\Desktop\ZELDA\ZELDA_WwiseProject\.cache\Mac\SFX\HouseGnossiene_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Themes\HouseGnossiene		10936896
+	983872593	Je Te Veux	C:\Users\coleb\OneDrive\Desktop\ZELDA\ZELDA_WwiseProject\.cache\Mac\SFX\Je Te Veux_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Themes\Je Te Veux		8164888
+

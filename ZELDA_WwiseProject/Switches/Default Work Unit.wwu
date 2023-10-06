@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{802DBCC1-1A4C-4E02-BA8D-A193B55245CB}" SchemaVersion="110">
+	<Switches>
+		<WorkUnit Name="Default Work Unit" ID="{802DBCC1-1A4C-4E02-BA8D-A193B55245CB}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="ThemesGroup" ID="{F617940F-7506-453D-93BA-3F439408E9A5}">
+					<ChildrenList>
+						<Switch Name="DefaultTheme" ID="{E47E027C-CE0B-47BA-81A8-AF257EAA964C}"/>
+						<Switch Name="HouseThemeNotCleared" ID="{4EEED23B-0900-496F-94CB-D63E16776D28}"/>
+						<Switch Name="CaveTheme" ID="{71B81014-D506-48AB-92E8-20BB106F33B0}"/>
+						<Switch Name="NPCCleared" ID="{7BF1F3E4-94F4-45CC-B2F4-EED470DD1D84}"/>
+					</ChildrenList>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</Switches>
+</WwiseDocument>

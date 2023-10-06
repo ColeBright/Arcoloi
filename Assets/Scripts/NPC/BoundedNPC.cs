@@ -79,7 +79,7 @@ public class BoundedNPC : Sign
         int loops = 0;
         while (temp == directionVector && loops < 100)
         {
-            Debug.Log("Here");
+            //Debug.Log("Here");
             loops++;
             ChangeDirection();
         }
