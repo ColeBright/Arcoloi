@@ -11,6 +11,7 @@
 						<State Name="HouseNotCleared" ID="{FEEC891C-5270-418A-A78A-0AAA5E36066F}"/>
 						<State Name="HouseCleared" ID="{37D9EE6A-0F37-42ED-A6D3-B90F4A9504A1}"/>
 						<State Name="StatueCleared" ID="{50D38B84-26E7-4A50-BFDA-A8BB3A2E4B54}"/>
+						<State Name="GraveyardCleared" ID="{2DCC86B4-0C67-4491-85BF-1E458F930D4D}"/>
 					</ChildrenList>
 				</StateGroup>
 			</ChildrenList>

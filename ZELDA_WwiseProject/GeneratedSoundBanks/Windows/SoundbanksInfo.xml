@@ -27,6 +27,7 @@
 						<State Id="748895195" Name="None"/>
 						<State Id="921132058" Name="NPCCleared"/>
 						<State Id="996092293" Name="HouseCleared"/>
+						<State Id="1964178720" Name="GraveyardCleared"/>
 						<State Id="2386522458" Name="HouseNotCleared"/>
 						<State Id="3116030828" Name="OverWorldDefault"/>
 						<State Id="4175274475" Name="StatueCleared"/>
@@ -44,10 +45,14 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{6A1B31EC-ECED-1C03-8BE1-2DD572E10EFF}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{DFE9D1FB-EF2B-4DA8-5E92-6A9B83D9BC4E}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
+				<File Id="108218257" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>PearForm.wav</ShortName>
+					<CachePath>SFX/PearForm_10C4C929.wem</CachePath>
+				</File>
 				<File Id="313408916" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Gnossiene.wav</ShortName>
 					<CachePath>SFX/Gnossiene_D79FB2B7.wem</CachePath>
@@ -104,6 +109,7 @@
 				</Event>
 				<Event Id="2774314118" Name="PlayRegions" DurationType="Infinite">
 					<MediaRefs>
+						<MediaRef Id="108218257"/>
 						<MediaRef Id="313408916"/>
 						<MediaRef Id="455848326"/>
 						<MediaRef Id="804276963"/>
@@ -124,5 +130,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{D5E18043-AA10-80D5-7EC9-873435F0B32C}</FileHash>
+	<FileHash>{4FB70DEA-5A54-327C-9EA7-585DACF2C661}</FileHash>
 </SoundBanksInfo>

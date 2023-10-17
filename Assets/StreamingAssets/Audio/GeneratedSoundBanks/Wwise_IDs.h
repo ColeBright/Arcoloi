@@ -25,6 +25,7 @@ namespace AK
 
             namespace STATE
             {
+                static const AkUniqueID GRAVEYARDCLEARED = 1964178720U;
                 static const AkUniqueID HOUSECLEARED = 996092293U;
                 static const AkUniqueID HOUSENOTCLEARED = 2386522458U;
                 static const AkUniqueID NONE = 748895195U;

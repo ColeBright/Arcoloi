@@ -1800,7 +1800,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &950406809
 GameObject:
@@ -33505,6 +33505,84 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac0b09e7857660247b1477e93731de29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1162315547
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1162315550}
+  - component: {fileID: 1162315549}
+  - component: {fileID: 1162315548}
+  m_Layer: 0
+  m_Name: Graveyard Area
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1162315548
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1162315547}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 12ea5ac2d6e8c4248bbddd201477e970, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OnTriggerEnterState:
+    idInternal: 0
+    valueGuidInternal: 
+    groupIdInternal: 0
+    groupGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 2dc2b3d84faf9684ebd8ab951b3f3155, type: 2}
+  playerInventory: {fileID: 11400000, guid: f1f985bedd8a2c44688254d19a2f5791, type: 2}
+  requiredItem: {fileID: 11400000, guid: 11c8b0365e7749a48b70c49e6a9d6a2d, type: 2}
+--- !u!61 &1162315549
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1162315547}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -17.914206, y: -30.56925}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 20.381771, y: 15.210293}
+  m_EdgeRadius: 0
+--- !u!4 &1162315550
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1162315547}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 48.18, y: 24.36, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 14
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1162486166
 GameObject:
   m_ObjectHideFlags: 0
@@ -33661,7 +33739,7 @@ PrefabInstance:
       objectReference: {fileID: 1401175662}
     - target: {fileID: 279838284972792036, guid: 5a5f892a02944bd4c9c133671bfd3fc2, type: 3}
       propertyPath: m_RootOrder
-      value: 12
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 279838284972792036, guid: 5a5f892a02944bd4c9c133671bfd3fc2, type: 3}
       propertyPath: m_LocalPosition.x
@@ -34508,7 +34586,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1465115135
 PrefabInstance:
@@ -68962,7 +69040,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3211411756019046475, guid: ca452a9dc7a35d840a6a8ded3f175bf0, type: 3}
       propertyPath: m_RootOrder
-      value: 11
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 3211411756019046475, guid: ca452a9dc7a35d840a6a8ded3f175bf0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -69208,7 +69286,7 @@ PrefabInstance:
       objectReference: {fileID: 1401175662}
     - target: {fileID: 279838284972792036, guid: 5a5f892a02944bd4c9c133671bfd3fc2, type: 3}
       propertyPath: m_RootOrder
-      value: 13
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 279838284972792036, guid: 5a5f892a02944bd4c9c133671bfd3fc2, type: 3}
       propertyPath: m_LocalPosition.x

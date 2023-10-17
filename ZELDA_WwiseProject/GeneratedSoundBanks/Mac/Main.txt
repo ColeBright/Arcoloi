@@ -18,6 +18,7 @@ State	ID	Name	State Group			Notes
 	748895195	None	Regions			
 	921132058	NPCCleared	Regions			
 	996092293	HouseCleared	Regions			
+	1964178720	GraveyardCleared	Regions			
 	2386522458	HouseNotCleared	Regions			
 	3116030828	OverWorldDefault	Regions			
 	4175274475	StatueCleared	Regions			
@@ -25,27 +26,38 @@ State	ID	Name	State Group			Notes
 Custom State	ID	Name	State Group	Owner		Notes
 	20724741	StatueCleared	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\Chien		
 	32321524	HouseNotCleared	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\Chien		
+	53037353	GraveyardCleared	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\The Real Statue breh		
 	54712188	HouseCleared	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\HouseGnossiene		
 	73838195	HouseCleared	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\Je Te Veux		
 	127887865	OverWorldDefault	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\Chien		
 	146259847	StatueCleared	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\Gnossiene		
+	246453699	GraveyardCleared	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\Chien		
+	274357729	GraveyardCleared	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\Gnossiene		
+	280846362	HouseNotCleared	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\PearForm		
 	309074953	OverWorldDefault	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\The Real Statue breh		
+	440799829	HouseCleared	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\PearForm		
 	471779079	NPCCleared	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\Gnossiene		
 	517430492	NPCCleared	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\Je Te Veux		
+	541744055	NPCCleared	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\PearForm		
 	543207806	HouseNotCleared	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\Je Te Veux		
 	553341036	StatueCleared	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\HouseGnossiene		
 	560178564	HouseNotCleared	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\Gnossiene		
 	572924620	HouseNotCleared	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\The Real Statue breh		
+	610624338	GraveyardCleared	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\Je Te Veux		
 	645505795	NPCCleared	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\HouseGnossiene		
 	688306111	HouseCleared	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\Gnossiene		
 	722567741	HouseCleared	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\The Real Statue breh		
+	744243633	GraveyardCleared	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\HouseGnossiene		
+	866451519	StatueCleared	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\PearForm		
 	907078472	StatueCleared	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\Je Te Veux		
 	930190037	OverWorldDefault	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\Je Te Veux		
 	1024057157	HouseCleared	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\Chien		
+	1025215655	OverWorldDefault	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\PearForm		
 	1041293850	NPCCleared	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\The Real Statue breh		
 	1069739571	OverWorldDefault	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\HouseGnossiene		
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	108218257	PearForm	C:\Users\coleb\OneDrive\Desktop\ZELDA\ZELDA_WwiseProject\.cache\Mac\SFX\PearForm_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Themes\PearForm		19716324
 	313408916	Gnossiene	C:\Users\coleb\OneDrive\Desktop\ZELDA\ZELDA_WwiseProject\.cache\Mac\SFX\Gnossiene_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Themes\Gnossiene		10666604
 	455848326	Chien	C:\Users\coleb\OneDrive\Desktop\ZELDA\ZELDA_WwiseProject\.cache\Mac\SFX\Chien_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Themes\Chien		5880096
 	668385061	GnossieneCave	C:\Users\coleb\OneDrive\Desktop\ZELDA\ZELDA_WwiseProject\.cache\Mac\SFX\GnossieneCave_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Themes\GnossieneCave		10666604

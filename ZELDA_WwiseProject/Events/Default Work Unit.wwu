@@ -51,6 +51,13 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
+						<Action Name="" ID="{847890CC-9E33-4927-9E02-CD12AAFFF812}" ShortID="914755246">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="PearForm" ID="{831F8308-ED88-4094-9A4A-B6E54F3CB557}" WorkUnitID="{2A8B9DC4-20F9-4EB6-8621-27C86C220B97}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 					</ChildrenList>
 				</Event>
 			</ChildrenList>
