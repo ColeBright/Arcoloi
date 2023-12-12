@@ -24,7 +24,7 @@ MonoBehaviour:
     ParentPath: Virtual Acoustics\Default Work Unit
     guid: d579457609305345adafd2bd6f387909
     GuidInternal: 
-    m_lastTime: -8585092293330870971
+    m_lastTime: -8585050624574496559
     List: []
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: 433e97c3603f5647a9ab61d45aa7da3a
     GuidInternal: 
-    m_lastTime: -8585092293331659030
+    m_lastTime: -8585050624579277212
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 542eddefa148494587aad4eedbb15515
     GuidInternal: 
-    m_lastTime: -8585057627815511753
+    m_lastTime: -8585050624574566539
     List:
     - name: Main
       guid: 6694ab6fa2e4bf47bd1e8be122aebbbf
@@ -94,7 +94,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 30074f8675440444b852ac0666c88b59
     GuidInternal: 
-    m_lastTime: -8585050650206964559
+    m_lastTime: -8585040972797340623
     List:
     - name: Play_Themes
       guid: d614691477162e4b89a46449656e096f
@@ -111,8 +111,8 @@ MonoBehaviour:
         guid: d614691477162e4b89a46449656e096f
       Path: Events\Default Work Unit\Play_Themes
       maxAttenuation: 0
-      maxDuration: Infinity
-      minDuration: 46.285667
+      maxDuration: -1
+      minDuration: -1
     - name: PlayRegions
       guid: e35ac30efc66c349a6a5b2127d7b864f
       id: 2774314118
@@ -142,7 +142,7 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: bab2981ec252714886d64c301720d5fb
     GuidInternal: 
-    m_lastTime: -8585092293330315625
+    m_lastTime: -8585050624602320108
     List: []
   StateWwu:
   - PhysicalPath: States\Default Work Unit.wwu
@@ -156,7 +156,7 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: a9a71568ea76314ebea1763fa4bcb2a4
     GuidInternal: 
-    m_lastTime: -8585050656242147710
+    m_lastTime: -8585010953810121071
     List:
     - name: Regions
       guid: 89caf52b78d0584688a7a3796d466eb1
@@ -173,6 +173,22 @@ MonoBehaviour:
         guid: 89caf52b78d0584688a7a3796d466eb1
       Path: States\Default Work Unit\Regions
       values:
+      - name: GraveyardCleared
+        guid: b486cc2d670c914485bf1e458f930d4d
+        id: 1964178720
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: a9a71568ea76314ebea1763fa4bcb2a4
+        - ElementName: Regions
+          ObjectType: 9
+          guid: 89caf52b78d0584688a7a3796d466eb1
+        - ElementName: GraveyardCleared
+          ObjectType: 8
+          guid: b486cc2d670c914485bf1e458f930d4d
       - name: HouseCleared
         guid: 6aeed937370fed42a6d3b90f4a9504a1
         id: 996092293
@@ -253,6 +269,22 @@ MonoBehaviour:
         - ElementName: OverWorldDefault
           ObjectType: 8
           guid: 8f75048a3893af4e942aebbd31df1437
+      - name: StatueCleared
+        guid: 848bd350e726504abfdaa8bb3a2e4b54
+        id: 4175274475
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: a9a71568ea76314ebea1763fa4bcb2a4
+        - ElementName: Regions
+          ObjectType: 9
+          guid: 89caf52b78d0584688a7a3796d466eb1
+        - ElementName: StatueCleared
+          ObjectType: 8
+          guid: 848bd350e726504abfdaa8bb3a2e4b54
       ValueGuids: []
       ValueIcons: []
       valuesInternal: []
@@ -268,7 +300,7 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit
     guid: c1bc2d804c1a024eba8da193b55245cb
     GuidInternal: 
-    m_lastTime: -8585058335208239676
+    m_lastTime: -8585050624574516427
     List:
     - name: ThemesGroup
       guid: 0f9417f606753d4593ba3f439408e9a5
@@ -364,11 +396,11 @@ MonoBehaviour:
     ParentPath: Triggers\Default Work Unit
     guid: 188e8b7a32cf69429b9f57210a9d3ee5
     GuidInternal: 
-    m_lastTime: -8585092293330491844
+    m_lastTime: -8585050624574506474
     List: []
-  ExpandedFileSystemItemIds: 020000000300000004000000050000000600000007000000090000000a000000
-  ExpandedWaapiItemIds: 01000000020000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e000000100000001e0000001f00000020000000b0000000b1000000b2000000
-  AutoSyncSelection: 1
+  ExpandedFileSystemItemIds: 
+  ExpandedWaapiItemIds: 010000000500000006000000090000000a0000000b0000000c0000000d000000
+  AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0
   CurrentPluginConfig: 

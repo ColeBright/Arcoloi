@@ -44,6 +44,27 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
+						<Action Name="" ID="{857524A0-EA95-41E9-8333-A92CD29012E7}" ShortID="812341242">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="The Real Statue breh" ID="{8FE82892-2A88-4E7B-BCCC-9C16E88FDF15}" WorkUnitID="{2A8B9DC4-20F9-4EB6-8621-27C86C220B97}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{847890CC-9E33-4927-9E02-CD12AAFFF812}" ShortID="914755246">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="PearForm" ID="{831F8308-ED88-4094-9A4A-B6E54F3CB557}" WorkUnitID="{2A8B9DC4-20F9-4EB6-8621-27C86C220B97}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{E55798DB-7C58-4056-9D2E-EE04DE79C15A}" ShortID="784163037">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Furniture music" ID="{1A302177-77F5-4DFF-8094-1A505C67B15D}" WorkUnitID="{2A8B9DC4-20F9-4EB6-8621-27C86C220B97}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 					</ChildrenList>
 				</Event>
 			</ChildrenList>

@@ -25,11 +25,14 @@ namespace AK
 
             namespace STATE
             {
+                static const AkUniqueID GRAVEYARDCLEARED = 1964178720U;
                 static const AkUniqueID HOUSECLEARED = 996092293U;
                 static const AkUniqueID HOUSENOTCLEARED = 2386522458U;
+                static const AkUniqueID MOSQUECLEARED = 409463705U;
                 static const AkUniqueID NONE = 748895195U;
                 static const AkUniqueID NPCCLEARED = 921132058U;
                 static const AkUniqueID OVERWORLDDEFAULT = 3116030828U;
+                static const AkUniqueID STATUECLEARED = 4175274475U;
             } // namespace STATE
         } // namespace REGIONS
 
