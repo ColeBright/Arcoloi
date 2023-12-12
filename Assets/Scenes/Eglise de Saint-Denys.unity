@@ -4264,7 +4264,7 @@ PrefabInstance:
     - target: {fileID: 1328935492878268301, guid: 06aebc457bc83c84a94c0fe9149e6ffb, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: -5034061168752090764, guid: 7be6bd9d2d660fb4ba273f8ed3a51314, type: 3}
+      objectReference: {fileID: 7537508723507771725, guid: e7e799032c48cf74d8a24fc7d09657e1, type: 3}
     - target: {fileID: 1783907119256339831, guid: 06aebc457bc83c84a94c0fe9149e6ffb, type: 3}
       propertyPath: m_Name
       value: Priest
