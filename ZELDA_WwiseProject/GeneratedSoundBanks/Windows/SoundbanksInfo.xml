@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{AF73CE1B-E623-655F-B363-4A2F2351F624}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{2C8989DA-4B10-9577-F4ED-54AC89E23EBF}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -24,6 +24,7 @@
 			<StateGroups>
 				<StateGroup Id="2091077764" Name="Regions">
 					<States>
+						<State Id="409463705" Name="MosqueCleared"/>
 						<State Id="748895195" Name="None"/>
 						<State Id="921132058" Name="NPCCleared"/>
 						<State Id="996092293" Name="HouseCleared"/>
@@ -45,7 +46,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{DFE9D1FB-EF2B-4DA8-5E92-6A9B83D9BC4E}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{02374CD4-3CBF-3FC4-1A42-67D3BBBDDD49}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -72,6 +73,10 @@
 				<File Id="910083615" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>HouseGnossiene.wav</ShortName>
 					<CachePath>SFX/HouseGnossiene_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="967879870" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Furniture music.wav</ShortName>
+					<CachePath>SFX/Furniture music_10C4C929.wem</CachePath>
 				</File>
 				<File Id="983872593" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Je Te Veux.wav</ShortName>
@@ -114,6 +119,7 @@
 						<MediaRef Id="455848326"/>
 						<MediaRef Id="804276963"/>
 						<MediaRef Id="910083615"/>
+						<MediaRef Id="967879870"/>
 						<MediaRef Id="983872593"/>
 					</MediaRefs>
 				</Event>
@@ -130,5 +136,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{4FB70DEA-5A54-327C-9EA7-585DACF2C661}</FileHash>
+	<FileHash>{1E3C1CA3-A646-11D9-CAF4-5C7201712AD6}</FileHash>
 </SoundBanksInfo>

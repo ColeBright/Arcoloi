@@ -4,6 +4,9 @@
 		<WorkUnit Name="Default Work Unit" ID="{6815A7A9-76EA-4E31-BEA1-763FA4BCB2A4}" PersistMode="Standalone">
 			<ChildrenList>
 				<StateGroup Name="Regions" ID="{2BF5CA89-D078-4658-88A7-A3796D466EB1}">
+					<PropertyList>
+						<Property Name="DefaultTransitionTime" Type="Real64" Value="0"/>
+					</PropertyList>
 					<ChildrenList>
 						<State Name="None" ID="{D6D3AB0D-6685-4E94-AE43-6362BA413728}"/>
 						<State Name="NPCCleared" ID="{48A7C6BB-7F1D-4633-8D73-50FC6B23AD5B}"/>
@@ -12,6 +15,7 @@
 						<State Name="HouseCleared" ID="{37D9EE6A-0F37-42ED-A6D3-B90F4A9504A1}"/>
 						<State Name="StatueCleared" ID="{50D38B84-26E7-4A50-BFDA-A8BB3A2E4B54}"/>
 						<State Name="GraveyardCleared" ID="{2DCC86B4-0C67-4491-85BF-1E458F930D4D}"/>
+						<State Name="MosqueCleared" ID="{83799A78-A960-4E3C-B96D-8CFF15B16EBF}"/>
 					</ChildrenList>
 				</StateGroup>
 			</ChildrenList>

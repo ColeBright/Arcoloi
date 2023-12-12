@@ -4,7 +4,11 @@ State Group	ID	Name			Wwise Object Path	Notes
 State	ID	Name	State Group			Notes
 	748895195	None	Regions			
 	921132058	NPCCleared	Regions			
+	996092293	HouseCleared	Regions			
+	1964178720	GraveyardCleared	Regions			
+	2386522458	HouseNotCleared	Regions			
 	3116030828	OverWorldDefault	Regions			
+	4175274475	StatueCleared	Regions			
 
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
