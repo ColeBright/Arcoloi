@@ -459,15 +459,15 @@
 									</CustomState>
 									<CustomState>
 										<StateRef Name="StatueCleared" ID="{50D38B84-26E7-4A50-BFDA-A8BB3A2E4B54}"/>
-										<CustomState Name="" ID="{F3E7BB84-8E9C-4F9D-9C78-320E273285F0}" ShortID="803844024">
+										<CustomState Name="" ID="{F3E7BB84-8E9C-4F9D-9C78-320E273285F0}" ShortID="803844024"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="MosqueCleared" ID="{83799A78-A960-4E3C-B96D-8CFF15B16EBF}"/>
+										<CustomState Name="" ID="{CC39080B-CEB0-4405-A936-DE1AEA7C2B40}" ShortID="158713346">
 											<PropertyList>
 												<Property Name="Volume" Type="Real64" Value="-108"/>
 											</PropertyList>
 										</CustomState>
-									</CustomState>
-									<CustomState>
-										<StateRef Name="MosqueCleared" ID="{83799A78-A960-4E3C-B96D-8CFF15B16EBF}"/>
-										<CustomState Name="" ID="{CC39080B-CEB0-4405-A936-DE1AEA7C2B40}" ShortID="158713346"/>
 									</CustomState>
 									<CustomState>
 										<StateRef Name="OverWorldDefault" ID="{8A04758F-9338-4EAF-942A-EBBD31DF1437}"/>
@@ -593,7 +593,7 @@
 								<CustomStateList>
 									<CustomState>
 										<StateRef Name="HouseNotCleared" ID="{FEEC891C-5270-418A-A78A-0AAA5E36066F}"/>
-										<CustomState Name="" ID="{B7BFF7F0-57F5-4A27-AFDA-29330751272D}" ShortID="904773213">
+										<CustomState Name="" ID="{313E4FFC-1314-462A-BB2A-4E7C054B3A24}" ShortID="23645015">
 											<PropertyList>
 												<Property Name="Volume" Type="Real64" Value="-108"/>
 											</PropertyList>
@@ -601,7 +601,7 @@
 									</CustomState>
 									<CustomState>
 										<StateRef Name="HouseCleared" ID="{37D9EE6A-0F37-42ED-A6D3-B90F4A9504A1}"/>
-										<CustomState Name="" ID="{F1CB1931-7E11-409E-8886-6D31F0ADD749}" ShortID="685471207">
+										<CustomState Name="" ID="{5045B40E-B830-4CA2-9690-5F4F732362F2}" ShortID="568693026">
 											<PropertyList>
 												<Property Name="Volume" Type="Real64" Value="-108"/>
 											</PropertyList>
@@ -609,7 +609,7 @@
 									</CustomState>
 									<CustomState>
 										<StateRef Name="GraveyardCleared" ID="{2DCC86B4-0C67-4491-85BF-1E458F930D4D}"/>
-										<CustomState Name="" ID="{FEDB094B-6A19-4A74-9627-1F3B617FE94C}" ShortID="63984653">
+										<CustomState Name="" ID="{35581DAA-E34F-40F8-AC18-BE2F3175BDA4}" ShortID="917037250">
 											<PropertyList>
 												<Property Name="Volume" Type="Real64" Value="-108"/>
 											</PropertyList>
@@ -617,7 +617,7 @@
 									</CustomState>
 									<CustomState>
 										<StateRef Name="NPCCleared" ID="{48A7C6BB-7F1D-4633-8D73-50FC6B23AD5B}"/>
-										<CustomState Name="" ID="{41EAAB1D-EB92-477C-A3EC-52BB85FBE4AE}" ShortID="687373625">
+										<CustomState Name="" ID="{7A48AF9B-6A6D-472E-B9D3-ACF4DBCCAD26}" ShortID="407750092">
 											<PropertyList>
 												<Property Name="Volume" Type="Real64" Value="-108"/>
 											</PropertyList>
@@ -625,7 +625,7 @@
 									</CustomState>
 									<CustomState>
 										<StateRef Name="StatueCleared" ID="{50D38B84-26E7-4A50-BFDA-A8BB3A2E4B54}"/>
-										<CustomState Name="" ID="{F486376C-3B74-4902-9936-15A32DE69AF5}" ShortID="892635133">
+										<CustomState Name="" ID="{12B807B6-D316-4BA8-BF85-50FBFC064004}" ShortID="290169136">
 											<PropertyList>
 												<Property Name="Volume" Type="Real64" Value="-108"/>
 											</PropertyList>
@@ -633,11 +633,11 @@
 									</CustomState>
 									<CustomState>
 										<StateRef Name="MosqueCleared" ID="{83799A78-A960-4E3C-B96D-8CFF15B16EBF}"/>
-										<CustomState Name="" ID="{ABF8878B-856B-413A-B992-3E563BB25843}" ShortID="1054769280"/>
+										<CustomState Name="" ID="{507C061C-04EC-4139-B95B-5C6DBD29C2BE}" ShortID="652754193"/>
 									</CustomState>
 									<CustomState>
 										<StateRef Name="OverWorldDefault" ID="{8A04758F-9338-4EAF-942A-EBBD31DF1437}"/>
-										<CustomState Name="" ID="{30060527-64CD-4ADC-A6BC-F397F28F58AE}" ShortID="565716122">
+										<CustomState Name="" ID="{43E0B0FC-2AF0-4C3F-8F7E-5CA8F00EBCBD}" ShortID="480501649">
 											<PropertyList>
 												<Property Name="Volume" Type="Real64" Value="-108"/>
 											</PropertyList>

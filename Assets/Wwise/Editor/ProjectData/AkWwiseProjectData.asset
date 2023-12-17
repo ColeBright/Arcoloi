@@ -94,7 +94,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 30074f8675440444b852ac0666c88b59
     GuidInternal: 
-    m_lastTime: -8585040972797340623
+    m_lastTime: -8584990866466060437
     List:
     - name: Play_Themes
       guid: d614691477162e4b89a46449656e096f
@@ -156,7 +156,7 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: a9a71568ea76314ebea1763fa4bcb2a4
     GuidInternal: 
-    m_lastTime: -8585010953810121071
+    m_lastTime: -8584991912846393359
     List:
     - name: Regions
       guid: 89caf52b78d0584688a7a3796d466eb1
@@ -221,6 +221,22 @@ MonoBehaviour:
         - ElementName: HouseNotCleared
           ObjectType: 8
           guid: 1c89ecfe70528a41a78a0aaa5e36066f
+      - name: MosqueCleared
+        guid: 789a798360a93c4eb96d8cff15b16ebf
+        id: 409463705
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: a9a71568ea76314ebea1763fa4bcb2a4
+        - ElementName: Regions
+          ObjectType: 9
+          guid: 89caf52b78d0584688a7a3796d466eb1
+        - ElementName: MosqueCleared
+          ObjectType: 8
+          guid: 789a798360a93c4eb96d8cff15b16ebf
       - name: None
         guid: 0dabd3d68566944eae436362ba413728
         id: 748895195
