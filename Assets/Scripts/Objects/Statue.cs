@@ -8,6 +8,7 @@ public class Statue : Sign
     public item mask;
     public item crescentMoon;
     public SignalSender raiseItem;
+    public string finalDialog;
     // Start is called before the first frame update
     void Start()
     {
@@ -17,14 +18,37 @@ public class Statue : Sign
     // Update is called once per frame
     public override void Update()
     {
+
         if (Input.GetButtonDown("attack") && playerInRange && playerInventory.items.Contains(mask) && !playerInventory.items.Contains(crescentMoon))
         {
-            dialog = "The wind seems to be whispering something... 'There is a House of the East that is missing their celestial light. Bring this to them.'";
-            base.Update();
+            dialog = finalDialog;
+
+            if (dialogBox.activeInHierarchy)
+            {
+                dialogBox.SetActive(false);
+            }
+            else
+            {
+                dialogBox.SetActive(true);
+                dialogText.text = dialog;
+            }
+            //base.Update();
             playerInventory.AddItem(crescentMoon);
             playerInventory.currentItem = crescentMoon;
-            raiseItem.Raise();
+            //raiseItem.Raise();
         }
+        else if (Input.GetButtonDown("attack") && playerInRange)
+            {
+                if (dialogBox.activeInHierarchy)
+                {
+                    dialogBox.SetActive(false);
+                }
+                else
+                {
+                    dialogBox.SetActive(true);
+                    dialogText.text = dialog;
+                }
+            }
         else {
             base.Update();
         }

@@ -4360,11 +4360,13 @@ MonoBehaviour:
   context: {fileID: 11400000, guid: c3213afdc691cdc439c533e3da81f42e, type: 2}
   dialogBox: {fileID: 1792572590}
   dialogText: {fileID: 1792572589}
-  dialog: 
+  dialog: I miss my friend down the block from here..
   playerInventory: {fileID: 11400000, guid: f1f985bedd8a2c44688254d19a2f5791, type: 2}
   mask: {fileID: 11400000, guid: d1a30ce12c0a02b48907024fbd793378, type: 2}
   crescentMoon: {fileID: 11400000, guid: 11c8b0365e7749a48b70c49e6a9d6a2d, type: 2}
   raiseItem: {fileID: 11400000, guid: 5812ae4c2d7a37c4ab715dd5b83a10c5, type: 2}
+  finalDialog: 'Ah, I wondered where that went. I can''t wait to talk with my estranged
+    best friend again. Take this as an offering for me to the graveyard, please. '
 --- !u!1001 &1792572588
 PrefabInstance:
   m_ObjectHideFlags: 0

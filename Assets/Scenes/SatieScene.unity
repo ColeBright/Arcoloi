@@ -69453,6 +69453,11 @@ PrefabInstance:
       propertyPath: dialogText
       value: 
       objectReference: {fileID: 1401175662}
+    - target: {fileID: 693122693, guid: 5a5f892a02944bd4c9c133671bfd3fc2, type: 3}
+      propertyPath: finalDialog
+      value: The wind seems to be whispering something... 'There is a House of the
+        East that is missing their celestial light. Bring this to them.
+      objectReference: {fileID: 0}
     - target: {fileID: 279838284972792036, guid: 5a5f892a02944bd4c9c133671bfd3fc2, type: 3}
       propertyPath: m_RootOrder
       value: 12

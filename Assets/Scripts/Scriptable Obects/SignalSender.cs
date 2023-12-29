@@ -16,11 +16,17 @@ public class SignalSender : ScriptableObject
 
     public void RegisterListener(SignalListener listener)
     {
-        listeners.Add(listener);
+        if (!listeners.Contains(listener))
+        {
+            listeners.Add(listener);
+        }
     }
 
     public void DeregisterListener(SignalListener listener)
     {
-        listeners.Remove(listener);
+        if (listeners.Contains(listener))
+        {
+            listeners.Remove(listener);
+        }
     }
 }

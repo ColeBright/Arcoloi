@@ -516,6 +516,8 @@ MonoBehaviour:
   mask: {fileID: 11400000, guid: b08855e52fdf70a489f17074e5c8f78c, type: 2}
   crescentMoon: {fileID: 11400000, guid: d1a30ce12c0a02b48907024fbd793378, type: 2}
   raiseItem: {fileID: 11400000, guid: 5812ae4c2d7a37c4ab715dd5b83a10c5, type: 2}
+  finalDialog: 'Oh! Me and my friend argued over where this went. Can you give this
+    back to him? '
 --- !u!1 &898807847
 GameObject:
   m_ObjectHideFlags: 0
