@@ -16,6 +16,8 @@
 						<State Name="StatueCleared" ID="{50D38B84-26E7-4A50-BFDA-A8BB3A2E4B54}"/>
 						<State Name="GraveyardCleared" ID="{2DCC86B4-0C67-4491-85BF-1E458F930D4D}"/>
 						<State Name="MosqueCleared" ID="{83799A78-A960-4E3C-B96D-8CFF15B16EBF}"/>
+						<State Name="GameFinished" ID="{7732DB73-47F6-465F-96A1-BDE269C4FECA}"/>
+						<State Name="InCave" ID="{8FC81EF6-50C3-4B13-B524-322FD164CBF3}"/>
 					</ChildrenList>
 				</StateGroup>
 			</ChildrenList>
