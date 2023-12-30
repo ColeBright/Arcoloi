@@ -156,7 +156,7 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: a9a71568ea76314ebea1763fa4bcb2a4
     GuidInternal: 
-    m_lastTime: -8584991912846393359
+    m_lastTime: -8584977188779384915
     List:
     - name: Regions
       guid: 89caf52b78d0584688a7a3796d466eb1
@@ -173,6 +173,22 @@ MonoBehaviour:
         guid: 89caf52b78d0584688a7a3796d466eb1
       Path: States\Default Work Unit\Regions
       values:
+      - name: GameFinished
+        guid: 73db3277f6475f4696a1bde269c4feca
+        id: 3566578273
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: a9a71568ea76314ebea1763fa4bcb2a4
+        - ElementName: Regions
+          ObjectType: 9
+          guid: 89caf52b78d0584688a7a3796d466eb1
+        - ElementName: GameFinished
+          ObjectType: 8
+          guid: 73db3277f6475f4696a1bde269c4feca
       - name: GraveyardCleared
         guid: b486cc2d670c914485bf1e458f930d4d
         id: 1964178720
@@ -221,6 +237,22 @@ MonoBehaviour:
         - ElementName: HouseNotCleared
           ObjectType: 8
           guid: 1c89ecfe70528a41a78a0aaa5e36066f
+      - name: InCave
+        guid: f61ec88fc350134bb524322fd164cbf3
+        id: 91271595
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: a9a71568ea76314ebea1763fa4bcb2a4
+        - ElementName: Regions
+          ObjectType: 9
+          guid: 89caf52b78d0584688a7a3796d466eb1
+        - ElementName: InCave
+          ObjectType: 8
+          guid: f61ec88fc350134bb524322fd164cbf3
       - name: MosqueCleared
         guid: 789a798360a93c4eb96d8cff15b16ebf
         id: 409463705
