@@ -24,6 +24,7 @@
 			<StateGroups>
 				<StateGroup Id="2091077764" Name="Regions">
 					<States>
+						<State Id="91271595" Name="InCave"/>
 						<State Id="409463705" Name="MosqueCleared"/>
 						<State Id="748895195" Name="None"/>
 						<State Id="921132058" Name="NPCCleared"/>
@@ -31,6 +32,7 @@
 						<State Id="1964178720" Name="GraveyardCleared"/>
 						<State Id="2386522458" Name="HouseNotCleared"/>
 						<State Id="3116030828" Name="OverWorldDefault"/>
+						<State Id="3566578273" Name="GameFinished"/>
 						<State Id="4175274475" Name="StatueCleared"/>
 					</States>
 				</StateGroup>
@@ -46,7 +48,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{22E2914F-78BF-236A-0DDD-ECA970C7EEAD}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{BB22C483-2AA4-4057-D63E-9DCA716E5D29}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -123,6 +125,7 @@
 						<MediaRef Id="983872593"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="3086540886" Name="StopAll" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 			<SwitchGroups>
 				<SwitchGroup Id="890541936" Name="ThemesGroup">
@@ -136,5 +139,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{26BB79A2-EB1C-B494-FD8E-BA1E3B178427}</FileHash>
+	<FileHash>{B35B5662-7FAB-8E15-D08E-936C9D8C8F3B}</FileHash>
 </SoundBanksInfo>
