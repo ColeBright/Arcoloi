@@ -33,6 +33,7 @@ public class Statue : Sign
                 dialogText.text = dialog;
             }
             //base.Update();
+            //TODO add the inventory exchange code to ontriggerenter2d and see if that helps with glitching
             playerInventory.AddItem(crescentMoon);
             playerInventory.currentItem = crescentMoon;
             //raiseItem.Raise();

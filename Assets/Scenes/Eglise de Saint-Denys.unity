@@ -4334,6 +4334,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1792572590}
     - target: {fileID: 7576191134096616997, guid: 06aebc457bc83c84a94c0fe9149e6ffb, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7576191134096616997, guid: 06aebc457bc83c84a94c0fe9149e6ffb, type: 3}
       propertyPath: dialogText
       value: 
       objectReference: {fileID: 1792572589}

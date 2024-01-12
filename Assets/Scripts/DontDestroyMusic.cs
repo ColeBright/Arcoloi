@@ -5,31 +5,38 @@ using UnityEngine.SceneManagement;
 
 public class DontDestroyMusic : MonoBehaviour
 {
-    public Inventory playerInventory;
+    //public Inventory playerInventory;
 
     //Scene currentScene = SceneManager.GetActiveScene();
+    //public AkEvent stop;
 
-    private void Awake()
+    //private void Awake()
+    //{
+
+    //    GameObject[] musicObj = GameObject.FindGameObjectsWithTag("Game Music");
+    //    if( musicObj.Length > 1)
+    //    {
+    //        Destroy(this.gameObject);
+    //    }
+    //    DontDestroyOnLoad(this.gameObject);
+    //}
+
+    private void OnDestroy()
     {
-
-        GameObject[] musicObj = GameObject.FindGameObjectsWithTag("Game Music");
-        if( musicObj.Length > 1)
-        {
-            Destroy(this.gameObject);
-        }
-        DontDestroyOnLoad(this.gameObject);
+        Debug.Log("In Destroy");
+        AkSoundEngine.PostEvent("StopAll", this.gameObject);
     }
     //check if area is resolved
 
-    private bool isAreaResolved(item itemAttained)
-    {
-        //check based on inventory, and pan it?
-        if (playerInventory.items.Contains(itemAttained))
-        {
-            return true;
-        }
-        return false;
-    }
+    //private bool isAreaResolved(item itemAttained)
+    //{
+    //    //check based on inventory, and pan it?
+    //    if (playerInventory.items.Contains(itemAttained))
+    //    {
+    //        return true;
+    //    }
+    //    return false;
+    //}
 
     //if it is check which scene
     //private void checkScene(Scene scene)

@@ -22,4 +22,9 @@ public class SetMusicNoCollider : MonoBehaviour
             Debug.Log("Not Obtained");
         }
     }
+    private void OnDestroy()
+    {
+        Debug.Log("In Destroy");
+        AkSoundEngine.PostEvent("StopAll", this.gameObject);
+    }
 }

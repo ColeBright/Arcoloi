@@ -15,6 +15,7 @@ namespace AK
     {
         static const AkUniqueID PLAY_THEMES = 4209088188U;
         static const AkUniqueID PLAYREGIONS = 2774314118U;
+        static const AkUniqueID STOPALL = 3086540886U;
     } // namespace EVENTS
 
     namespace STATES
@@ -25,9 +26,11 @@ namespace AK
 
             namespace STATE
             {
+                static const AkUniqueID GAMEFINISHED = 3566578273U;
                 static const AkUniqueID GRAVEYARDCLEARED = 1964178720U;
                 static const AkUniqueID HOUSECLEARED = 996092293U;
                 static const AkUniqueID HOUSENOTCLEARED = 2386522458U;
+                static const AkUniqueID INCAVE = 91271595U;
                 static const AkUniqueID MOSQUECLEARED = 409463705U;
                 static const AkUniqueID NONE = 748895195U;
                 static const AkUniqueID NPCCLEARED = 921132058U;

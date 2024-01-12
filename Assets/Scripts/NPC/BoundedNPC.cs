@@ -36,6 +36,7 @@ public class BoundedNPC : Sign
     // Update is called once per frame
     public override void Update()
     {
+        //TODO maybe add this inventory addition code to ontriggerenter2D to fix the glitches
         if (Input.GetButtonDown("attack") && playerInRange && playerInventory.items.Contains(letter) && !playerInventory.items.Contains(mask))
         {
             dialog = "Oh, is that a letter? Someone told me to give this pear to a dude with felt hat, beard, and glasses. But you took a long time so I ate it. Uh, but you can have this mask!";
@@ -55,6 +56,19 @@ public class BoundedNPC : Sign
 
 
         }
+        else if (Input.GetButtonDown("attack") && playerInRange)
+        {
+            if (dialogBox.activeInHierarchy)
+            {
+                dialogBox.SetActive(false);
+            }
+            else
+            {
+                dialogBox.SetActive(true);
+                dialogText.text = dialog;
+            }
+        }
+        
         //base.Update();
         if (isMoving)
         {
