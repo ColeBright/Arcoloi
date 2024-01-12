@@ -29,7 +29,6 @@ State	ID	Name	State Group			Notes
 
 Custom State	ID	Name	State Group	Owner		Notes
 	20724741	StatueCleared	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\Chien		
-	23645015	HouseNotCleared	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\Furniture music		
 	32321524	HouseNotCleared	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\Chien		
 	36631262	HouseNotCleared	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\GnossieneCave		
 	52914205	InCave	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\HouseGnossiene		
@@ -42,21 +41,21 @@ Custom State	ID	Name	State Group	Owner		Notes
 	146259847	StatueCleared	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\Gnossiene		
 	156530339	GameFinished	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\PearForm		
 	158713346	MosqueCleared	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\The Real Statue breh		
-	206599873	InCave	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\Furniture music		
+	181237156	MosqueCleared	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\Gymno		
 	246453699	GraveyardCleared	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\Chien		
 	260766430	InCave	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\Chien		
 	274357729	GraveyardCleared	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\Gnossiene		
 	280846362	HouseNotCleared	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\PearForm		
-	290169136	StatueCleared	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\Furniture music		
 	309074953	OverWorldDefault	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\The Real Statue breh		
 	315087148	HouseCleared	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\GnossieneCave		
+	317920507	InCave	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\Gymno		
+	355548373	NPCCleared	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\Gymno		
 	358713420	InCave	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\The Real Statue breh		
-	407750092	NPCCleared	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\Furniture music		
 	423264128	StatueCleared	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\GnossieneCave		
+	438972668	StatueCleared	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\Gymno		
 	440799829	HouseCleared	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\PearForm		
 	450436494	GameFinished	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\Gnossiene		
 	471779079	NPCCleared	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\Gnossiene		
-	480501649	OverWorldDefault	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\Furniture music		
 	517430492	NPCCleared	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\Je Te Veux		
 	520826614	GameFinished	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\The Real Statue breh		
 	534868038	MosqueCleared	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\Je Te Veux		
@@ -66,13 +65,14 @@ Custom State	ID	Name	State Group	Owner		Notes
 	557753372	GameFinished	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\GnossieneCave		
 	558498165	NPCCleared	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\GnossieneCave		
 	560178564	HouseNotCleared	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\Gnossiene		
-	568693026	HouseCleared	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\Furniture music		
 	572924620	HouseNotCleared	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\The Real Statue breh		
+	585060490	GraveyardCleared	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\Gymno		
 	610624338	GraveyardCleared	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\Je Te Veux		
 	628938678	MosqueCleared	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\GnossieneCave		
 	645505795	NPCCleared	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\HouseGnossiene		
 	685713678	OverWorldDefault	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\GnossieneCave		
 	688306111	HouseCleared	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\Gnossiene		
+	717440124	HouseCleared	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\Gymno		
 	722567741	HouseCleared	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\The Real Statue breh		
 	726572114	GameFinished	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\HouseGnossiene		
 	744243633	GraveyardCleared	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\HouseGnossiene		
@@ -82,25 +82,25 @@ Custom State	ID	Name	State Group	Owner		Notes
 	892243934	InCave	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\Gnossiene		
 	900405245	MosqueCleared	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\PearForm		
 	907078472	StatueCleared	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\Je Te Veux		
-	917037250	GraveyardCleared	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\Furniture music		
 	930190037	OverWorldDefault	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\Je Te Veux		
 	941682254	InCave	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\PearForm		
 	947773279	InCave	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\Je Te Veux		
+	963719716	HouseNotCleared	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\Gymno		
+	974635473	OverWorldDefault	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\Gymno		
 	991937272	MosqueCleared	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\Chien		
 	1024057157	HouseCleared	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\Chien		
 	1025215655	OverWorldDefault	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\PearForm		
 	1041293850	NPCCleared	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\The Real Statue breh		
-	1048328681	GameFinished	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\Furniture music		
 	1052810537	GraveyardCleared	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\GnossieneCave		
 	1069739571	OverWorldDefault	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\HouseGnossiene		
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	32865663	Gymno	C:\Users\coleb\OneDrive\Desktop\ZELDA\ZELDA_WwiseProject\.cache\Mac\SFX\Gymno_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Themes\Gymno		25048896
 	108218257	PearForm	C:\Users\coleb\OneDrive\Desktop\ZELDA\ZELDA_WwiseProject\.cache\Mac\SFX\PearForm_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Themes\PearForm		19716324
 	313408916	Gnossiene	C:\Users\coleb\OneDrive\Desktop\ZELDA\ZELDA_WwiseProject\.cache\Mac\SFX\Gnossiene_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Themes\Gnossiene		10666604
 	455848326	Chien	C:\Users\coleb\OneDrive\Desktop\ZELDA\ZELDA_WwiseProject\.cache\Mac\SFX\Chien_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Themes\Chien		5880096
 	668385061	GnossieneCave	C:\Users\coleb\OneDrive\Desktop\ZELDA\ZELDA_WwiseProject\.cache\Mac\SFX\GnossieneCave_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Themes\GnossieneCave		10666604
 	804276963	The Real Statue breh	C:\Users\coleb\OneDrive\Desktop\ZELDA\ZELDA_WwiseProject\.cache\Mac\SFX\The Real Statue breh_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Themes\The Real Statue breh		4939296
 	910083615	HouseGnossiene	C:\Users\coleb\OneDrive\Desktop\ZELDA\ZELDA_WwiseProject\.cache\Mac\SFX\HouseGnossiene_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Themes\HouseGnossiene		10936896
-	967879870	Furniture music	C:\Users\coleb\OneDrive\Desktop\ZELDA\ZELDA_WwiseProject\.cache\Mac\SFX\Furniture music_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Themes\Furniture music		4057296
 	983872593	Je Te Veux	C:\Users\coleb\OneDrive\Desktop\ZELDA\ZELDA_WwiseProject\.cache\Mac\SFX\Je Te Veux_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Themes\Je Te Veux		8164888
 

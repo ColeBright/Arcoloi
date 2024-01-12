@@ -48,10 +48,14 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{BB22C483-2AA4-4057-D63E-9DCA716E5D29}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{3F8F2FA2-7527-2A0D-79DF-9EBF3D6B8166}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
+				<File Id="32865663" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Gymno.wav</ShortName>
+					<CachePath>SFX/Gymno_10C4C929.wem</CachePath>
+				</File>
 				<File Id="108218257" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>PearForm.wav</ShortName>
 					<CachePath>SFX/PearForm_10C4C929.wem</CachePath>
@@ -75,10 +79,6 @@
 				<File Id="910083615" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>HouseGnossiene.wav</ShortName>
 					<CachePath>SFX/HouseGnossiene_D79FB2B7.wem</CachePath>
-				</File>
-				<File Id="967879870" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Furniture music.wav</ShortName>
-					<CachePath>SFX/Furniture music_10C4C929.wem</CachePath>
 				</File>
 				<File Id="983872593" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Je Te Veux.wav</ShortName>
@@ -116,12 +116,12 @@
 				</Event>
 				<Event Id="2774314118" Name="PlayRegions" DurationType="Infinite">
 					<MediaRefs>
+						<MediaRef Id="32865663"/>
 						<MediaRef Id="108218257"/>
 						<MediaRef Id="313408916"/>
 						<MediaRef Id="455848326"/>
 						<MediaRef Id="804276963"/>
 						<MediaRef Id="910083615"/>
-						<MediaRef Id="967879870"/>
 						<MediaRef Id="983872593"/>
 					</MediaRefs>
 				</Event>
@@ -139,5 +139,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{9EB57B09-91C1-4747-728C-79BF66AF167A}</FileHash>
+	<FileHash>{C6B136A0-B966-48AA-8B07-39291EFB692C}</FileHash>
 </SoundBanksInfo>
