@@ -9,11 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 18b911c354bb69c44a30d5e84fc3e2c8, type: 3}
-  m_Name: PlayerInventory
+  m_Script: {fileID: 11500000, guid: d984c95d0e5deba4d93ae565bb0af715, type: 3}
+  m_Name: Note
   m_EditorClassIdentifier: 
-  currentItem: {fileID: 0}
-  items:
-  - {fileID: 11400000, guid: 206d4697ed1399b40aaa75fe1150bf44, type: 2}
-  numberOfKeys: 0
-  hasLetter: 0
+  itemSprite: {fileID: 0}
+  itemDescription: 
+  isKey: 0

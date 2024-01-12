@@ -5,7 +5,10 @@ using UnityEngine.SceneManagement;
 
 public class DontDestroyMusic : MonoBehaviour
 {
-    //public Inventory playerInventory;
+    public Inventory playerInventory;
+    public item requiredItem;
+    public GameObject defaultMusicPlayer;
+    public GameObject finalMusicPlayer;
 
     //Scene currentScene = SceneManager.GetActiveScene();
     //public AkEvent stop;
@@ -20,6 +23,20 @@ public class DontDestroyMusic : MonoBehaviour
     //    }
     //    DontDestroyOnLoad(this.gameObject);
     //}
+
+    private void Start()
+    {
+        if (playerInventory.items.Contains(requiredItem))
+        {
+            defaultMusicPlayer.SetActive(false);
+            finalMusicPlayer.SetActive(true);
+        }
+        else
+        {
+            defaultMusicPlayer.SetActive(true);
+            finalMusicPlayer.SetActive(false);
+        }
+    }
 
     private void OnDestroy()
     {
