@@ -1012,6 +1012,11 @@
 						<Sound Name="AvantDP" ID="{964AC2B6-9693-4230-AF83-21E8D6D9BB3A}" ShortID="398626682">
 							<PropertyList>
 								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>7</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">

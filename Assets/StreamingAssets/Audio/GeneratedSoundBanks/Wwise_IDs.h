@@ -36,6 +36,7 @@ namespace AK
                 static const AkUniqueID NPCCLEARED = 921132058U;
                 static const AkUniqueID OVERWORLDDEFAULT = 3116030828U;
                 static const AkUniqueID STATUECLEARED = 4175274475U;
+                static const AkUniqueID TITLE = 3705726509U;
             } // namespace STATE
         } // namespace REGIONS
 

@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{95A9A324-2958-A468-7036-33F907D3254C}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{4168EDD0-9C1C-7B83-3040-65DA05EDCC2F}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -33,6 +33,7 @@
 						<State Id="2386522458" Name="HouseNotCleared"/>
 						<State Id="3116030828" Name="OverWorldDefault"/>
 						<State Id="3566578273" Name="GameFinished"/>
+						<State Id="3705726509" Name="Title"/>
 						<State Id="4175274475" Name="StatueCleared"/>
 					</States>
 				</StateGroup>
@@ -48,7 +49,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{3F8F2FA2-7527-2A0D-79DF-9EBF3D6B8166}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{6595807D-44DC-0C23-16E7-77E32CF86500}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -79,6 +80,14 @@
 				<File Id="910083615" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>HouseGnossiene.wav</ShortName>
 					<CachePath>SFX/HouseGnossiene_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="963456134" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>AvantDP.wav</ShortName>
+					<CachePath>SFX/AvantDP_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="967879870" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Furniture music.wav</ShortName>
+					<CachePath>SFX/Furniture music_10C4C929.wem</CachePath>
 				</File>
 				<File Id="983872593" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Je Te Veux.wav</ShortName>
@@ -122,6 +131,8 @@
 						<MediaRef Id="455848326"/>
 						<MediaRef Id="804276963"/>
 						<MediaRef Id="910083615"/>
+						<MediaRef Id="963456134"/>
+						<MediaRef Id="967879870"/>
 						<MediaRef Id="983872593"/>
 					</MediaRefs>
 				</Event>
@@ -139,5 +150,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{C6B136A0-B966-48AA-8B07-39291EFB692C}</FileHash>
+	<FileHash>{EE506935-B954-77CC-2928-0938299D795B}</FileHash>
 </SoundBanksInfo>
