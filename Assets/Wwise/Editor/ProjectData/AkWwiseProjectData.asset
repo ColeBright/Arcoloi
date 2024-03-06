@@ -94,7 +94,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 30074f8675440444b852ac0666c88b59
     GuidInternal: 
-    m_lastTime: -8584955773096202011
+    m_lastTime: -8584919146025713738
     List:
     - name: Play_Themes
       guid: d614691477162e4b89a46449656e096f
@@ -173,7 +173,7 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: a9a71568ea76314ebea1763fa4bcb2a4
     GuidInternal: 
-    m_lastTime: -8584955774177829267
+    m_lastTime: -8584919145578002430
     List:
     - name: Regions
       guid: 89caf52b78d0584688a7a3796d466eb1
@@ -190,6 +190,22 @@ MonoBehaviour:
         guid: 89caf52b78d0584688a7a3796d466eb1
       Path: States\Default Work Unit\Regions
       values:
+      - name: ChurchCleared
+        guid: c7058f93e08f83448abb36967be6118a
+        id: 3816498772
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: a9a71568ea76314ebea1763fa4bcb2a4
+        - ElementName: Regions
+          ObjectType: 9
+          guid: 89caf52b78d0584688a7a3796d466eb1
+        - ElementName: ChurchCleared
+          ObjectType: 8
+          guid: c7058f93e08f83448abb36967be6118a
       - name: GameFinished
         guid: 73db3277f6475f4696a1bde269c4feca
         id: 3566578273
@@ -480,7 +496,7 @@ MonoBehaviour:
     m_lastTime: -8585050624574506474
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 01000000030000000500000006000000070000000a0000000b0000000c0000000d0000000e0000000f000000
+  ExpandedWaapiItemIds: 01000000030000000500000006000000070000000a0000000b0000000c0000000d0000000e0000000f000000a1000000a2000000a3000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

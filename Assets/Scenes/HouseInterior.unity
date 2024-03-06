@@ -4308,7 +4308,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &647332315
 Transform:
   m_ObjectHideFlags: 0
@@ -4345,17 +4345,45 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 693122693, guid: 5a5f892a02944bd4c9c133671bfd3fc2, type: 3}
+      propertyPath: mask
+      value: 
+      objectReference: {fileID: 11400000, guid: ca71e380132da6245a51b3eb4ba145a0, type: 2}
+    - target: {fileID: 693122693, guid: 5a5f892a02944bd4c9c133671bfd3fc2, type: 3}
+      propertyPath: dialog
+      value: A famililar tune is recorded in beautiful penmanship...
+      objectReference: {fileID: 0}
+    - target: {fileID: 693122693, guid: 5a5f892a02944bd4c9c133671bfd3fc2, type: 3}
+      propertyPath: dialogBox
+      value: 
+      objectReference: {fileID: 1490868488}
+    - target: {fileID: 693122693, guid: 5a5f892a02944bd4c9c133671bfd3fc2, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 693122693, guid: 5a5f892a02944bd4c9c133671bfd3fc2, type: 3}
+      propertyPath: dialogText
+      value: 
+      objectReference: {fileID: 1295556594}
+    - target: {fileID: 693122693, guid: 5a5f892a02944bd4c9c133671bfd3fc2, type: 3}
+      propertyPath: finalDialog
+      value: You remembered your best friend's song.. step outside to hear it.
+      objectReference: {fileID: 0}
+    - target: {fileID: 693122693, guid: 5a5f892a02944bd4c9c133671bfd3fc2, type: 3}
+      propertyPath: crescentMoon
+      value: 
+      objectReference: {fileID: 11400000, guid: 206d4697ed1399b40aaa75fe1150bf44, type: 2}
     - target: {fileID: 279838284972792036, guid: 5a5f892a02944bd4c9c133671bfd3fc2, type: 3}
       propertyPath: m_RootOrder
       value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 279838284972792036, guid: 5a5f892a02944bd4c9c133671bfd3fc2, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.97
+      value: 4.6
       objectReference: {fileID: 0}
     - target: {fileID: 279838284972792036, guid: 5a5f892a02944bd4c9c133671bfd3fc2, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.23
+      value: -0.79
       objectReference: {fileID: 0}
     - target: {fileID: 279838284972792036, guid: 5a5f892a02944bd4c9c133671bfd3fc2, type: 3}
       propertyPath: m_LocalPosition.z
@@ -4389,6 +4417,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3869877172043340372, guid: 5a5f892a02944bd4c9c133671bfd3fc2, type: 3}
+      propertyPath: m_Size.x
+      value: 0.875
+      objectReference: {fileID: 0}
+    - target: {fileID: 3869877172043340372, guid: 5a5f892a02944bd4c9c133671bfd3fc2, type: 3}
+      propertyPath: m_Size.y
+      value: 0.5625
+      objectReference: {fileID: 0}
+    - target: {fileID: 3869877172043340372, guid: 5a5f892a02944bd4c9c133671bfd3fc2, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -3727842135710763035, guid: d3f0bfca202bf0846a88f16bd8cebfa1, type: 3}
+    - target: {fileID: 3869877172043340372, guid: 5a5f892a02944bd4c9c133671bfd3fc2, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4540883036714248366, guid: 5a5f892a02944bd4c9c133671bfd3fc2, type: 3}
       propertyPath: m_Name
       value: SheetMusic
@@ -4400,6 +4444,21 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 4540883036714248366, guid: 5a5f892a02944bd4c9c133671bfd3fc2, type: 3}
   m_PrefabInstance: {fileID: 924474624}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &924474626
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 924474625}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 99a0cdbb01aee6b42befdae3fa15e7d3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sheetMusicObj: {fileID: 924474625}
+  playerInventory: {fileID: 11400000, guid: f1f985bedd8a2c44688254d19a2f5791, type: 2}
+  requiredItem: {fileID: 11400000, guid: ca71e380132da6245a51b3eb4ba145a0, type: 2}
 --- !u!1 &925395547
 GameObject:
   m_ObjectHideFlags: 0

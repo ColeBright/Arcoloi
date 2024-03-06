@@ -79,6 +79,13 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
+						<Action Name="" ID="{6BB3DA52-F573-4806-85AA-1E23015931EA}" ShortID="274757279">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Premiere Pensee" ID="{75C5F3ED-0C8A-4B4C-A121-7D8233821B01}" WorkUnitID="{2A8B9DC4-20F9-4EB6-8621-27C86C220B97}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 					</ChildrenList>
 				</Event>
 				<Event Name="StopAll" ID="{E9B774F1-1C47-47A7-8828-03A07C9EF723}">

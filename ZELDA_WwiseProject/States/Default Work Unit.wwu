@@ -19,6 +19,7 @@
 						<State Name="GameFinished" ID="{7732DB73-47F6-465F-96A1-BDE269C4FECA}"/>
 						<State Name="InCave" ID="{8FC81EF6-50C3-4B13-B524-322FD164CBF3}"/>
 						<State Name="Title" ID="{AF405DC9-992F-492B-8F1C-F36023EA2FDC}"/>
+						<State Name="ChurchCleared" ID="{938F05C7-8FE0-4483-8ABB-36967BE6118A}"/>
 					</ChildrenList>
 				</StateGroup>
 			</ChildrenList>

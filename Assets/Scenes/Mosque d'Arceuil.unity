@@ -5973,7 +5973,7 @@ MonoBehaviour:
     groupGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: acce639c9a1d5f64998bc315c780b8eb, type: 2}
   playerInventory: {fileID: 11400000, guid: f1f985bedd8a2c44688254d19a2f5791, type: 2}
-  requiredItem: {fileID: 11400000, guid: b08855e52fdf70a489f17074e5c8f78c, type: 2}
+  requiredItem: {fileID: 11400000, guid: d1a30ce12c0a02b48907024fbd793378, type: 2}
 --- !u!1 &1716772316
 GameObject:
   m_ObjectHideFlags: 0

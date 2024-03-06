@@ -34,6 +34,7 @@
 						<State Id="3116030828" Name="OverWorldDefault"/>
 						<State Id="3566578273" Name="GameFinished"/>
 						<State Id="3705726509" Name="Title"/>
+						<State Id="3816498772" Name="ChurchCleared"/>
 						<State Id="4175274475" Name="StatueCleared"/>
 					</States>
 				</StateGroup>
@@ -49,7 +50,7 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{6595807D-44DC-0C23-16E7-77E32CF86500}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{76E03118-32C5-FBFF-142A-32D5D18BFC66}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
@@ -60,6 +61,10 @@
 				<File Id="108218257" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>PearForm.wav</ShortName>
 					<CachePath>SFX/PearForm_10C4C929.wem</CachePath>
+				</File>
+				<File Id="275482760" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Premiere Pensee.wav</ShortName>
+					<CachePath>SFX/Premiere Pensee_10C4C929.wem</CachePath>
 				</File>
 				<File Id="313408916" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Gnossiene.wav</ShortName>
@@ -127,6 +132,7 @@
 					<MediaRefs>
 						<MediaRef Id="32865663"/>
 						<MediaRef Id="108218257"/>
+						<MediaRef Id="275482760"/>
 						<MediaRef Id="313408916"/>
 						<MediaRef Id="455848326"/>
 						<MediaRef Id="804276963"/>
@@ -150,5 +156,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{EE506935-B954-77CC-2928-0938299D795B}</FileHash>
+	<FileHash>{0BFAF5CF-07E9-82F6-22A6-A1BEE16940EE}</FileHash>
 </SoundBanksInfo>

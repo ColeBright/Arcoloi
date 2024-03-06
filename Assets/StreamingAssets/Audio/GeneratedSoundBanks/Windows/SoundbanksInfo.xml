@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="145">
+	<RootPaths>
+		<ProjectRoot>../..</ProjectRoot>
+		<SourceFilesRoot>../../.cache/Windows</SourceFilesRoot>
+		<SoundBanksRoot>.</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>.</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{28EA373C-CD64-A749-E1BF-3B0667B9C287}">
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<Plugins>
+				<AudioDevices>
+					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
+					<Plugin Id="3859886410" Name="System" LibName="System" LibId="11403271"/>
+				</AudioDevices>
+			</Plugins>
+			<Busses>
+				<Bus Id="3803692087" Name="Master Audio Bus"/>
+			</Busses>
+			<StateGroups>
+				<StateGroup Id="2091077764" Name="Regions">
+					<States>
+						<State Id="91271595" Name="InCave"/>
+						<State Id="409463705" Name="MosqueCleared"/>
+						<State Id="748895195" Name="None"/>
+						<State Id="921132058" Name="NPCCleared"/>
+						<State Id="996092293" Name="HouseCleared"/>
+						<State Id="1964178720" Name="GraveyardCleared"/>
+						<State Id="2386522458" Name="HouseNotCleared"/>
+						<State Id="3116030828" Name="OverWorldDefault"/>
+						<State Id="3566578273" Name="GameFinished"/>
+						<State Id="3705726509" Name="Title"/>
+						<State Id="4175274475" Name="StatueCleared"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
+			<SwitchGroups>
+				<SwitchGroup Id="890541936" Name="ThemesGroup">
+					<Switches>
+						<Switch Id="824977647" Name="DefaultTheme"/>
+						<Switch Id="921132058" Name="NPCCleared"/>
+						<Switch Id="1661888377" Name="CaveTheme"/>
+						<Switch Id="2034947975" Name="HouseThemeNotCleared"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+		</SoundBank>
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{6595807D-44DC-0C23-16E7-77E32CF86500}">
+			<ShortName>Main</ShortName>
+			<Path>Main.bnk</Path>
+			<Media>
+				<File Id="32865663" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Gymno.wav</ShortName>
+					<CachePath>SFX/Gymno_10C4C929.wem</CachePath>
+				</File>
+				<File Id="108218257" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>PearForm.wav</ShortName>
+					<CachePath>SFX/PearForm_10C4C929.wem</CachePath>
+				</File>
+				<File Id="313408916" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Gnossiene.wav</ShortName>
+					<CachePath>SFX/Gnossiene_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="455848326" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Chien.wav</ShortName>
+					<CachePath>SFX/Chien_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="668385061" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>GnossieneCave.wav</ShortName>
+					<CachePath>SFX/GnossieneCave_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="804276963" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>The Real Statue breh.wav</ShortName>
+					<CachePath>SFX/The Real Statue breh_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="910083615" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>HouseGnossiene.wav</ShortName>
+					<CachePath>SFX/HouseGnossiene_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="963456134" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>AvantDP.wav</ShortName>
+					<CachePath>SFX/AvantDP_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="967879870" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Furniture music.wav</ShortName>
+					<CachePath>SFX/Furniture music_10C4C929.wem</CachePath>
+				</File>
+				<File Id="983872593" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Je Te Veux.wav</ShortName>
+					<CachePath>SFX/Je Te Veux_D79FB2B7.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="4209088188" Name="Play_Themes" DurationType="Infinite">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="890541936" Id="1661888377"/>
+							<MediaRefs>
+								<MediaRef Id="668385061"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="890541936" Id="2034947975"/>
+							<MediaRefs>
+								<MediaRef Id="910083615"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="890541936" Id="824977647" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="313408916"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="890541936" Id="921132058"/>
+							<MediaRefs>
+								<MediaRef Id="983872593"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
+				<Event Id="2774314118" Name="PlayRegions" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="32865663"/>
+						<MediaRef Id="108218257"/>
+						<MediaRef Id="313408916"/>
+						<MediaRef Id="455848326"/>
+						<MediaRef Id="804276963"/>
+						<MediaRef Id="910083615"/>
+						<MediaRef Id="963456134"/>
+						<MediaRef Id="967879870"/>
+						<MediaRef Id="983872593"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3086540886" Name="StopAll" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+			</Events>
+			<SwitchGroups>
+				<SwitchGroup Id="890541936" Name="ThemesGroup">
+					<Switches>
+						<Switch Id="824977647" Name="DefaultTheme"/>
+						<Switch Id="921132058" Name="NPCCleared"/>
+						<Switch Id="1661888377" Name="CaveTheme"/>
+						<Switch Id="2034947975" Name="HouseThemeNotCleared"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{DF93BE4F-85E9-4B80-1917-D59BDF93FDB5}</FileHash>
+</SoundBanksInfo>
