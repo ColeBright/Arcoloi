@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{28EA373C-CD64-A749-E1BF-3B0667B9C287}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{BACD9C11-0929-F3C4-9BDE-574229B3A9C9}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -21,6 +21,9 @@
 			<Busses>
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 			</Busses>
+			<GameParameters>
+				<GameParameter Id="2346531308" Name="MusicVolume"/>
+			</GameParameters>
 			<StateGroups>
 				<StateGroup Id="2091077764" Name="Regions">
 					<States>
@@ -156,5 +159,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{CB0C1B8E-8C44-AF13-1CE7-FC58FD0F3018}</FileHash>
+	<FileHash>{EE92C677-D6C6-90A7-2C27-71B6F481B4F6}</FileHash>
 </SoundBanksInfo>
