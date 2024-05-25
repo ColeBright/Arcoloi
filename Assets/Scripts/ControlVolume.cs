@@ -6,13 +6,13 @@ using UnityEngine.UI;
 public class ControlVolume : MonoBehaviour
 {
     public Slider slider;
-    public float musicVolume;
+    public FloatValue musicVolume;
 
     public void SetVolume()
     {
         float sliderValue = slider.value;
 
-        musicVolume = sliderValue;
-        AkSoundEngine.SetRTPCValue("MusicVolume", musicVolume);
+        musicVolume.runtimeValue = sliderValue;
+        AkSoundEngine.SetRTPCValue("MusicVolume", musicVolume.runtimeValue);
     }
 }
