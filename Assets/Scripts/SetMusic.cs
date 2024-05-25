@@ -5,6 +5,7 @@ using UnityEngine;
 public class SetMusic : MonoBehaviour
 {
     public AK.Wwise.State OnTriggerEnterState;
+    public AK.Wwise.State OnTriggerExitState;
     public Inventory playerInventory;
     public item requiredItem;
     //[SerializeField]
@@ -20,5 +21,9 @@ public class SetMusic : MonoBehaviour
             //mySwitch.SetValue(this.gameObject);
             //AkSoundEngine.SetSwitch("ThemesGroup", "NPCCleared", gameObject);
         }
+    }
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        OnTriggerExitState.SetValue();
     }
 }

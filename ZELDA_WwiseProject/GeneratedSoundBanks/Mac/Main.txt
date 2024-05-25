@@ -1,5 +1,6 @@
 Event	ID	Name			Wwise Object Path	Notes
 	2774314118	PlayRegions			\Default Work Unit\PlayRegions	
+	3086540886	StopAll			\Default Work Unit\StopAll	
 	4209088188	Play_Themes			\Default Work Unit\Play_Themes	
 
 Switch Group	ID	Name			Wwise Object Path	Notes
@@ -15,6 +16,7 @@ State Group	ID	Name			Wwise Object Path	Notes
 	2091077764	Regions			\Default Work Unit\Regions	
 
 State	ID	Name	State Group			Notes
+	91271595	InCave	Regions			
 	409463705	MosqueCleared	Regions			
 	748895195	None	Regions			
 	921132058	NPCCleared	Regions			
@@ -22,60 +24,134 @@ State	ID	Name	State Group			Notes
 	1964178720	GraveyardCleared	Regions			
 	2386522458	HouseNotCleared	Regions			
 	3116030828	OverWorldDefault	Regions			
+	3566578273	GameFinished	Regions			
+	3705726509	Title	Regions			
+	3816498772	ChurchCleared	Regions			
 	4175274475	StatueCleared	Regions			
 
 Custom State	ID	Name	State Group	Owner		Notes
+	9646861	Title	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\Je Te Veux		
 	20724741	StatueCleared	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\Chien		
+	23645015	HouseNotCleared	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\Furniture music		
 	32321524	HouseNotCleared	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\Chien		
+	36631262	HouseNotCleared	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\GnossieneCave		
+	50410985	NPCCleared	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\Premiere Pensee		
+	52914205	InCave	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\HouseGnossiene		
 	53037353	GraveyardCleared	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\The Real Statue breh		
 	54712188	HouseCleared	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\HouseGnossiene		
-	63984653	GraveyardCleared	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\Furniture music		
+	62645754	ChurchCleared	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\Gnossiene		
+	70747329	ChurchCleared	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\Je Te Veux		
+	72061300	Title	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\Chien		
+	73294592	ChurchCleared	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\GnossieneCave		
 	73838195	HouseCleared	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\Je Te Veux		
+	75286294	GraveyardCleared	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\Premiere Pensee		
+	79404700	GameFinished	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\Je Te Veux		
+	98199484	Title	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\PearForm		
 	126892974	MosqueCleared	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\Gnossiene		
 	127887865	OverWorldDefault	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\Chien		
 	146259847	StatueCleared	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\Gnossiene		
+	156530339	GameFinished	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\PearForm		
+	158713346	MosqueCleared	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\The Real Statue breh		
+	181237156	MosqueCleared	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\Gymno		
+	206599873	InCave	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\Furniture music		
 	246453699	GraveyardCleared	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\Chien		
+	250888900	Title	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\GnossieneCave		
+	252591808	Title	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\HouseGnossiene		
+	252745561	HouseNotCleared	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\AvantDP		
+	260766430	InCave	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\Chien		
+	265623176	MosqueCleared	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\Premiere Pensee		
+	271703470	NPCCleared	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\AvantDP		
 	274357729	GraveyardCleared	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\Gnossiene		
+	275154125	GameFinished	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\AvantDP		
 	280846362	HouseNotCleared	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\PearForm		
+	283291244	Title	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\Gymno		
+	290169136	StatueCleared	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\Furniture music		
+	293400594	OverWorldDefault	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\AvantDP		
 	309074953	OverWorldDefault	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\The Real Statue breh		
+	311604244	Title	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\Premiere Pensee		
+	315087148	HouseCleared	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\GnossieneCave		
+	315958547	ChurchCleared	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\PearForm		
+	317920507	InCave	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\Gymno		
+	355548373	NPCCleared	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\Gymno		
+	358154725	Title	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\Gnossiene		
+	358713420	InCave	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\The Real Statue breh		
+	407750092	NPCCleared	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\Furniture music		
+	423264128	StatueCleared	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\GnossieneCave		
+	438972668	StatueCleared	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\Gymno		
 	440799829	HouseCleared	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\PearForm		
+	447557576	StatueCleared	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\AvantDP		
+	450436494	GameFinished	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\Gnossiene		
 	471779079	NPCCleared	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\Gnossiene		
+	475936906	Title	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\Furniture music		
+	480501649	OverWorldDefault	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\Furniture music		
 	517430492	NPCCleared	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\Je Te Veux		
+	520826614	GameFinished	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\The Real Statue breh		
 	534868038	MosqueCleared	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\Je Te Veux		
 	541744055	NPCCleared	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\PearForm		
 	543207806	HouseNotCleared	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\Je Te Veux		
 	553341036	StatueCleared	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\HouseGnossiene		
+	557753372	GameFinished	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\GnossieneCave		
+	558498165	NPCCleared	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\GnossieneCave		
 	560178564	HouseNotCleared	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\Gnossiene		
-	565716122	OverWorldDefault	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\Furniture music		
+	568693026	HouseCleared	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\Furniture music		
 	572924620	HouseNotCleared	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\The Real Statue breh		
+	585060490	GraveyardCleared	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\Gymno		
 	610624338	GraveyardCleared	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\Je Te Veux		
+	628938678	MosqueCleared	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\GnossieneCave		
+	631185170	InCave	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\Premiere Pensee		
+	635082834	GraveyardCleared	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\AvantDP		
+	637306230	GameFinished	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\Premiere Pensee		
+	642921428	ChurchCleared	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\Gymno		
 	645505795	NPCCleared	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\HouseGnossiene		
-	685471207	HouseCleared	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\Furniture music		
-	687373625	NPCCleared	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\Furniture music		
+	685713678	OverWorldDefault	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\GnossieneCave		
+	687044838	InCave	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\AvantDP		
 	688306111	HouseCleared	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\Gnossiene		
+	700048986	HouseCleared	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\Premiere Pensee		
+	717440124	HouseCleared	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\Gymno		
 	722567741	HouseCleared	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\The Real Statue breh		
+	726572114	GameFinished	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\HouseGnossiene		
+	737109582	ChurchCleared	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\The Real Statue breh		
 	744243633	GraveyardCleared	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\HouseGnossiene		
+	746725110	Title	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\The Real Statue breh		
 	775075596	MosqueCleared	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\HouseGnossiene		
-	803844024	StatueCleared	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\The Real Statue breh		
+	776635585	ChurchCleared	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\AvantDP		
+	828331865	HouseCleared	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\AvantDP		
+	841692083	GameFinished	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\Chien		
+	845701323	OverWorldDefault	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\Premiere Pensee		
 	866451519	StatueCleared	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\PearForm		
-	892635133	StatueCleared	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\Furniture music		
+	892243934	InCave	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\Gnossiene		
 	900405245	MosqueCleared	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\PearForm		
-	904773213	HouseNotCleared	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\Furniture music		
 	907078472	StatueCleared	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\Je Te Veux		
+	917037250	GraveyardCleared	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\Furniture music		
+	927680467	MosqueCleared	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\AvantDP		
 	930190037	OverWorldDefault	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\Je Te Veux		
+	941682254	InCave	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\PearForm		
+	947773279	InCave	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\Je Te Veux		
+	963719716	HouseNotCleared	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\Gymno		
+	968054973	ChurchCleared	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\HouseGnossiene		
+	974635473	OverWorldDefault	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\Gymno		
+	985557261	HouseNotCleared	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\Premiere Pensee		
 	991937272	MosqueCleared	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\Chien		
+	1001422815	StatueCleared	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\Premiere Pensee		
 	1024057157	HouseCleared	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\Chien		
 	1025215655	OverWorldDefault	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\PearForm		
+	1028903700	ChurchCleared	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\Furniture music		
 	1041293850	NPCCleared	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\The Real Statue breh		
+	1048328681	GameFinished	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\Furniture music		
+	1052810537	GraveyardCleared	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\GnossieneCave		
 	1069739571	OverWorldDefault	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\HouseGnossiene		
+	1070225988	ChurchCleared	Regions	\Actor-Mixer Hierarchy\Default Work Unit\Themes\Chien		
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	32865663	Gymno	C:\Users\coleb\OneDrive\Desktop\ZELDA\ZELDA_WwiseProject\.cache\Mac\SFX\Gymno_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Themes\Gymno		25048896
 	108218257	PearForm	C:\Users\coleb\OneDrive\Desktop\ZELDA\ZELDA_WwiseProject\.cache\Mac\SFX\PearForm_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Themes\PearForm		19716324
+	275482760	Premiere Pensee	C:\Users\coleb\OneDrive\Desktop\ZELDA\ZELDA_WwiseProject\.cache\Mac\SFX\Premiere Pensee_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Themes\Premiere Pensee		6879696
 	313408916	Gnossiene	C:\Users\coleb\OneDrive\Desktop\ZELDA\ZELDA_WwiseProject\.cache\Mac\SFX\Gnossiene_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Themes\Gnossiene		10666604
 	455848326	Chien	C:\Users\coleb\OneDrive\Desktop\ZELDA\ZELDA_WwiseProject\.cache\Mac\SFX\Chien_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Themes\Chien		5880096
 	668385061	GnossieneCave	C:\Users\coleb\OneDrive\Desktop\ZELDA\ZELDA_WwiseProject\.cache\Mac\SFX\GnossieneCave_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Themes\GnossieneCave		10666604
 	804276963	The Real Statue breh	C:\Users\coleb\OneDrive\Desktop\ZELDA\ZELDA_WwiseProject\.cache\Mac\SFX\The Real Statue breh_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Themes\The Real Statue breh		4939296
 	910083615	HouseGnossiene	C:\Users\coleb\OneDrive\Desktop\ZELDA\ZELDA_WwiseProject\.cache\Mac\SFX\HouseGnossiene_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Themes\HouseGnossiene		10936896
+	963456134	AvantDP	C:\Users\coleb\OneDrive\Desktop\ZELDA\ZELDA_WwiseProject\.cache\Mac\SFX\AvantDP_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Themes\AvantDP		4601844
 	967879870	Furniture music	C:\Users\coleb\OneDrive\Desktop\ZELDA\ZELDA_WwiseProject\.cache\Mac\SFX\Furniture music_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Themes\Furniture music		4057296
 	983872593	Je Te Veux	C:\Users\coleb\OneDrive\Desktop\ZELDA\ZELDA_WwiseProject\.cache\Mac\SFX\Je Te Veux_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Themes\Je Te Veux		8164888
 

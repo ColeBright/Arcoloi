@@ -61,9 +61,41 @@
 						<Action Name="" ID="{E55798DB-7C58-4056-9D2E-EE04DE79C15A}" ShortID="784163037">
 							<ReferenceList>
 								<Reference Name="Target">
+									<ObjectRef Name="Gymno" ID="{9AF89149-4CAA-4CFB-9BEC-78CD1AF7BE19}" WorkUnitID="{2A8B9DC4-20F9-4EB6-8621-27C86C220B97}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{3427F6C0-8E64-4D64-9EDF-4D56B4148213}" ShortID="512262791">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="AvantDP" ID="{964AC2B6-9693-4230-AF83-21E8D6D9BB3A}" WorkUnitID="{2A8B9DC4-20F9-4EB6-8621-27C86C220B97}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{3F6C2ED0-0D63-4AAC-881D-88EB40B2110D}" ShortID="895739205">
+							<ReferenceList>
+								<Reference Name="Target">
 									<ObjectRef Name="Furniture music" ID="{1A302177-77F5-4DFF-8094-1A505C67B15D}" WorkUnitID="{2A8B9DC4-20F9-4EB6-8621-27C86C220B97}"/>
 								</Reference>
 							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{6BB3DA52-F573-4806-85AA-1E23015931EA}" ShortID="274757279">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Premiere Pensee" ID="{75C5F3ED-0C8A-4B4C-A121-7D8233821B01}" WorkUnitID="{2A8B9DC4-20F9-4EB6-8621-27C86C220B97}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="StopAll" ID="{E9B774F1-1C47-47A7-8828-03A07C9EF723}">
+					<ChildrenList>
+						<Action Name="" ID="{02E3708E-FE28-4458-A969-C36E2B85EC00}" ShortID="936777945">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="3"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList/>
 						</Action>
 					</ChildrenList>
 				</Event>

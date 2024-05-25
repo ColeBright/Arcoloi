@@ -5,6 +5,7 @@
 			<ChildrenList>
 				<SoundBank Name="Main" ID="{6FAB9466-E4A2-47BF-BD1E-8BE122AEBBBF}">
 					<ObjectInclusionList>
+						<ObjectRef Name="StopAll" ID="{E9B774F1-1C47-47A7-8828-03A07C9EF723}" WorkUnitID="{864F0730-4475-4404-B852-AC0666C88B59}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="PlayRegions" ID="{0EC35AE3-66FC-49C3-A6A5-B2127D7B864F}" WorkUnitID="{864F0730-4475-4404-B852-AC0666C88B59}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Play_Themes" ID="{146914D6-1677-4B2E-89A4-6449656E096F}" WorkUnitID="{864F0730-4475-4404-B852-AC0666C88B59}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>

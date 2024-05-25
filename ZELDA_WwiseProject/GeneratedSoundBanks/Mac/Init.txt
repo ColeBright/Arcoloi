@@ -2,13 +2,21 @@ State Group	ID	Name			Wwise Object Path	Notes
 	2091077764	Regions			\Default Work Unit\Regions	
 
 State	ID	Name	State Group			Notes
+	91271595	InCave	Regions			
+	409463705	MosqueCleared	Regions			
 	748895195	None	Regions			
 	921132058	NPCCleared	Regions			
 	996092293	HouseCleared	Regions			
 	1964178720	GraveyardCleared	Regions			
 	2386522458	HouseNotCleared	Regions			
 	3116030828	OverWorldDefault	Regions			
+	3566578273	GameFinished	Regions			
+	3705726509	Title	Regions			
+	3816498772	ChurchCleared	Regions			
 	4175274475	StatueCleared	Regions			
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	2346531308	MusicVolume			\Default Work Unit\Volume\MusicVolume	
 
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	

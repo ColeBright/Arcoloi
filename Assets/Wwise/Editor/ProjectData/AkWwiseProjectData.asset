@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: 433e97c3603f5647a9ab61d45aa7da3a
     GuidInternal: 
-    m_lastTime: -8585050624579277212
+    m_lastTime: -8584855438451239200
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 542eddefa148494587aad4eedbb15515
     GuidInternal: 
-    m_lastTime: -8585050624574566539
+    m_lastTime: -8584967736600730580
     List:
     - name: Main
       guid: 6694ab6fa2e4bf47bd1e8be122aebbbf
@@ -94,7 +94,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 30074f8675440444b852ac0666c88b59
     GuidInternal: 
-    m_lastTime: -8585040972797340623
+    m_lastTime: -8584919146025713738
     List:
     - name: Play_Themes
       guid: d614691477162e4b89a46449656e096f
@@ -130,6 +130,23 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: StopAll
+      guid: f174b7e9471ca747882803a07c9ef723
+      id: 3086540886
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 30074f8675440444b852ac0666c88b59
+      - ElementName: StopAll
+        ObjectType: 3
+        guid: f174b7e9471ca747882803a07c9ef723
+      Path: Events\Default Work Unit\StopAll
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
@@ -142,8 +159,39 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: bab2981ec252714886d64c301720d5fb
     GuidInternal: 
-    m_lastTime: -8585050624602320108
-    List: []
+    m_lastTime: -8584855438451082140
+    List:
+    - name: MusicVolume
+      guid: d45be5190058a84481cc1bc674b7ea3b
+      id: 2346531308
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: bab2981ec252714886d64c301720d5fb
+      - ElementName: Volume
+        ObjectType: 4
+        guid: ece1e2f6e3441942a1bf2a53363946c3
+      - ElementName: MusicVolume
+        ObjectType: 13
+        guid: d45be5190058a84481cc1bc674b7ea3b
+      Path: Game Parameters\Default Work Unit\Volume\MusicVolume
+    - name: Volume
+      guid: ece1e2f6e3441942a1bf2a53363946c3
+      id: 2415836739
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: bab2981ec252714886d64c301720d5fb
+      - ElementName: Volume
+        ObjectType: 4
+        guid: ece1e2f6e3441942a1bf2a53363946c3
+      Path: Game Parameters\Default Work Unit\Volume
   StateWwu:
   - PhysicalPath: States\Default Work Unit.wwu
     PathAndIcons:
@@ -156,7 +204,7 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: a9a71568ea76314ebea1763fa4bcb2a4
     GuidInternal: 
-    m_lastTime: -8585010953810121071
+    m_lastTime: -8584919145578002430
     List:
     - name: Regions
       guid: 89caf52b78d0584688a7a3796d466eb1
@@ -173,6 +221,38 @@ MonoBehaviour:
         guid: 89caf52b78d0584688a7a3796d466eb1
       Path: States\Default Work Unit\Regions
       values:
+      - name: ChurchCleared
+        guid: c7058f93e08f83448abb36967be6118a
+        id: 3816498772
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: a9a71568ea76314ebea1763fa4bcb2a4
+        - ElementName: Regions
+          ObjectType: 9
+          guid: 89caf52b78d0584688a7a3796d466eb1
+        - ElementName: ChurchCleared
+          ObjectType: 8
+          guid: c7058f93e08f83448abb36967be6118a
+      - name: GameFinished
+        guid: 73db3277f6475f4696a1bde269c4feca
+        id: 3566578273
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: a9a71568ea76314ebea1763fa4bcb2a4
+        - ElementName: Regions
+          ObjectType: 9
+          guid: 89caf52b78d0584688a7a3796d466eb1
+        - ElementName: GameFinished
+          ObjectType: 8
+          guid: 73db3277f6475f4696a1bde269c4feca
       - name: GraveyardCleared
         guid: b486cc2d670c914485bf1e458f930d4d
         id: 1964178720
@@ -221,6 +301,38 @@ MonoBehaviour:
         - ElementName: HouseNotCleared
           ObjectType: 8
           guid: 1c89ecfe70528a41a78a0aaa5e36066f
+      - name: InCave
+        guid: f61ec88fc350134bb524322fd164cbf3
+        id: 91271595
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: a9a71568ea76314ebea1763fa4bcb2a4
+        - ElementName: Regions
+          ObjectType: 9
+          guid: 89caf52b78d0584688a7a3796d466eb1
+        - ElementName: InCave
+          ObjectType: 8
+          guid: f61ec88fc350134bb524322fd164cbf3
+      - name: MosqueCleared
+        guid: 789a798360a93c4eb96d8cff15b16ebf
+        id: 409463705
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: a9a71568ea76314ebea1763fa4bcb2a4
+        - ElementName: Regions
+          ObjectType: 9
+          guid: 89caf52b78d0584688a7a3796d466eb1
+        - ElementName: MosqueCleared
+          ObjectType: 8
+          guid: 789a798360a93c4eb96d8cff15b16ebf
       - name: None
         guid: 0dabd3d68566944eae436362ba413728
         id: 748895195
@@ -285,6 +397,22 @@ MonoBehaviour:
         - ElementName: StatueCleared
           ObjectType: 8
           guid: 848bd350e726504abfdaa8bb3a2e4b54
+      - name: Title
+        guid: c95d40af2f992b498f1cf36023ea2fdc
+        id: 3705726509
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: a9a71568ea76314ebea1763fa4bcb2a4
+        - ElementName: Regions
+          ObjectType: 9
+          guid: 89caf52b78d0584688a7a3796d466eb1
+        - ElementName: Title
+          ObjectType: 8
+          guid: c95d40af2f992b498f1cf36023ea2fdc
       ValueGuids: []
       ValueIcons: []
       valuesInternal: []
@@ -399,7 +527,7 @@ MonoBehaviour:
     m_lastTime: -8585050624574506474
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 010000000500000006000000090000000a0000000b0000000c0000000d000000
+  ExpandedWaapiItemIds: 01000000030000000500000006000000070000000a0000000b0000000c0000000d0000000e0000000f000000a1000000a2000000a3000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

@@ -36,18 +36,40 @@ public class BoundedNPC : Sign
     // Update is called once per frame
     public override void Update()
     {
-        if (playerInRange && playerInventory.items.Contains(letter))
+        //TODO maybe add this inventory addition code to ontriggerenter2D to fix the glitches
+        if (Input.GetButtonDown("attack") && playerInRange && playerInventory.items.Contains(letter) && !playerInventory.items.Contains(mask))
         {
-                dialog = "Oh, is that a letter? Someone told me to give this pear to a dude with felt hat, beard, and glasses. But you took a long time so I ate it. Uh, but you can have this mask!";
+            dialog = "Oh, is that a letter? Someone told me to give this pear to a dude with felt hat, beard, and glasses. But you took a long time so I ate it. Uh, but you can have this mask!";
+
+            if (dialogBox.activeInHierarchy)
+            {
+                dialogBox.SetActive(false);
+            }
+            else
+            {
+                dialogBox.SetActive(true);
+                dialogText.text = dialog;
+            }
                 playerInventory.AddItem(mask);
                 playerInventory.currentItem = mask;
-                raiseItem.Raise();
+                //raiseItem.Raise();
+
+
         }
-        //if (playerInventory.items.Contains(mask))
-        //{
-        //    dialog = "Yeah, sorry about that... But hopefully that mask comes in handy.. I love wearing it and seeing everyone's reactions. BOO!";
-        //}
-            base.Update();
+        else if (Input.GetButtonDown("attack") && playerInRange)
+        {
+            if (dialogBox.activeInHierarchy)
+            {
+                dialogBox.SetActive(false);
+            }
+            else
+            {
+                dialogBox.SetActive(true);
+                dialogText.text = dialog;
+            }
+        }
+        
+        //base.Update();
         if (isMoving)
         {
             moveTimeSeconds -= Time.deltaTime;

@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{95A9A324-2958-A468-7036-33F907D3254C}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{8D5D1A8B-5827-C265-9314-C82836167440}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -21,9 +21,13 @@
 			<Busses>
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 			</Busses>
+			<GameParameters>
+				<GameParameter Id="2346531308" Name="MusicVolume"/>
+			</GameParameters>
 			<StateGroups>
 				<StateGroup Id="2091077764" Name="Regions">
 					<States>
+						<State Id="91271595" Name="InCave"/>
 						<State Id="409463705" Name="MosqueCleared"/>
 						<State Id="748895195" Name="None"/>
 						<State Id="921132058" Name="NPCCleared"/>
@@ -31,6 +35,9 @@
 						<State Id="1964178720" Name="GraveyardCleared"/>
 						<State Id="2386522458" Name="HouseNotCleared"/>
 						<State Id="3116030828" Name="OverWorldDefault"/>
+						<State Id="3566578273" Name="GameFinished"/>
+						<State Id="3705726509" Name="Title"/>
+						<State Id="3816498772" Name="ChurchCleared"/>
 						<State Id="4175274475" Name="StatueCleared"/>
 					</States>
 				</StateGroup>
@@ -46,13 +53,21 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{02374CD4-3CBF-3FC4-1A42-67D3BBBDDD49}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{76E03118-32C5-FBFF-142A-32D5D18BFC66}">
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
+				<File Id="32865663" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Gymno.wav</ShortName>
+					<CachePath>SFX/Gymno_10C4C929.wem</CachePath>
+				</File>
 				<File Id="108218257" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>PearForm.wav</ShortName>
 					<CachePath>SFX/PearForm_10C4C929.wem</CachePath>
+				</File>
+				<File Id="275482760" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Premiere Pensee.wav</ShortName>
+					<CachePath>SFX/Premiere Pensee_10C4C929.wem</CachePath>
 				</File>
 				<File Id="313408916" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Gnossiene.wav</ShortName>
@@ -73,6 +88,10 @@
 				<File Id="910083615" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>HouseGnossiene.wav</ShortName>
 					<CachePath>SFX/HouseGnossiene_D79FB2B7.wem</CachePath>
+				</File>
+				<File Id="963456134" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>AvantDP.wav</ShortName>
+					<CachePath>SFX/AvantDP_D79FB2B7.wem</CachePath>
 				</File>
 				<File Id="967879870" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Furniture music.wav</ShortName>
@@ -114,15 +133,19 @@
 				</Event>
 				<Event Id="2774314118" Name="PlayRegions" DurationType="Infinite">
 					<MediaRefs>
+						<MediaRef Id="32865663"/>
 						<MediaRef Id="108218257"/>
+						<MediaRef Id="275482760"/>
 						<MediaRef Id="313408916"/>
 						<MediaRef Id="455848326"/>
 						<MediaRef Id="804276963"/>
 						<MediaRef Id="910083615"/>
+						<MediaRef Id="963456134"/>
 						<MediaRef Id="967879870"/>
 						<MediaRef Id="983872593"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="3086540886" Name="StopAll" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 			<SwitchGroups>
 				<SwitchGroup Id="890541936" Name="ThemesGroup">
@@ -136,5 +159,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{E66DE787-C033-0923-58BD-87A438470EDF}</FileHash>
+	<FileHash>{155BB6A8-FEC6-C08B-F9D3-8210751F6587}</FileHash>
 </SoundBanksInfo>

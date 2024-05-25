@@ -14,10 +14,17 @@ public class SetMusicNoCollider : MonoBehaviour
         if (playerInventory.items.Contains(requiredItem))
         {
             LetterObtained.SetValue();
+            Debug.Log("Obtained");
         }
         else
         {
             LetterNotObtained.SetValue();
+            Debug.Log("Not Obtained");
         }
+    }
+    private void OnDestroy()
+    {
+        Debug.Log("In Destroy");
+        AkSoundEngine.PostEvent("StopAll", this.gameObject);
     }
 }

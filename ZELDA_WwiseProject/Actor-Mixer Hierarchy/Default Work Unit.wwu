@@ -64,6 +64,14 @@
 										</CustomState>
 									</CustomState>
 									<CustomState>
+										<StateRef Name="ChurchCleared" ID="{938F05C7-8FE0-4483-8ABB-36967BE6118A}"/>
+										<CustomState Name="" ID="{9BA7F462-4834-4BFB-8FB7-67470AEFDE66}" ShortID="62645754">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
 										<StateRef Name="GraveyardCleared" ID="{2DCC86B4-0C67-4491-85BF-1E458F930D4D}"/>
 										<CustomState Name="" ID="{2054460D-DD80-4FAD-A370-86E175F92DC9}" ShortID="274357729">
 											<PropertyList>
@@ -80,8 +88,32 @@
 										</CustomState>
 									</CustomState>
 									<CustomState>
+										<StateRef Name="GameFinished" ID="{7732DB73-47F6-465F-96A1-BDE269C4FECA}"/>
+										<CustomState Name="" ID="{462398DC-2601-40B2-9932-67C7900588D3}" ShortID="450436494">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Title" ID="{AF405DC9-992F-492B-8F1C-F36023EA2FDC}"/>
+										<CustomState Name="" ID="{CD8923C6-3AF8-4216-AC39-05449E460D6C}" ShortID="358154725">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
 										<StateRef Name="StatueCleared" ID="{50D38B84-26E7-4A50-BFDA-A8BB3A2E4B54}"/>
 										<CustomState Name="" ID="{C7BF22E2-91A8-4B85-A5A2-8A332D63FD12}" ShortID="146259847">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="InCave" ID="{8FC81EF6-50C3-4B13-B524-322FD164CBF3}"/>
+										<CustomState Name="" ID="{472A1D61-BC7F-44B2-A6EF-3C724951DB04}" ShortID="892243934">
 											<PropertyList>
 												<Property Name="Volume" Type="Real64" Value="-108"/>
 											</PropertyList>
@@ -131,6 +163,99 @@
 									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="Regions" ID="{2BF5CA89-D078-4658-88A7-A3796D466EB1}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="HouseNotCleared" ID="{FEEC891C-5270-418A-A78A-0AAA5E36066F}"/>
+										<CustomState Name="" ID="{82F348AC-77C4-48D0-80AD-EAB6A834F250}" ShortID="36631262">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="HouseCleared" ID="{37D9EE6A-0F37-42ED-A6D3-B90F4A9504A1}"/>
+										<CustomState Name="" ID="{DF19CF9E-2751-484B-B022-76195E26BE6B}" ShortID="315087148">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="ChurchCleared" ID="{938F05C7-8FE0-4483-8ABB-36967BE6118A}"/>
+										<CustomState Name="" ID="{D350F6E3-479C-43EC-BD02-AB2705823664}" ShortID="73294592">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="GraveyardCleared" ID="{2DCC86B4-0C67-4491-85BF-1E458F930D4D}"/>
+										<CustomState Name="" ID="{2BCAB2E9-81E5-4A99-8CB2-F818358B9F0A}" ShortID="1052810537">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="NPCCleared" ID="{48A7C6BB-7F1D-4633-8D73-50FC6B23AD5B}"/>
+										<CustomState Name="" ID="{E7F4C37B-12AB-4C5B-BF79-E38E882423EE}" ShortID="558498165">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="GameFinished" ID="{7732DB73-47F6-465F-96A1-BDE269C4FECA}"/>
+										<CustomState Name="" ID="{AFA21AA9-1A9F-4306-BFD9-E4CEEA6789F4}" ShortID="557753372">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Title" ID="{AF405DC9-992F-492B-8F1C-F36023EA2FDC}"/>
+										<CustomState Name="" ID="{DEC8AF62-45E2-45EF-827E-73A78B1F58D1}" ShortID="250888900">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="StatueCleared" ID="{50D38B84-26E7-4A50-BFDA-A8BB3A2E4B54}"/>
+										<CustomState Name="" ID="{614F41E2-8490-4D06-B52F-CA4917A57279}" ShortID="423264128">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="InCave" ID="{8FC81EF6-50C3-4B13-B524-322FD164CBF3}"/>
+										<CustomState Name="" ID="{7000A9EB-E355-48F8-9130-99D63009BDD8}" ShortID="90168640"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="MosqueCleared" ID="{83799A78-A960-4E3C-B96D-8CFF15B16EBF}"/>
+										<CustomState Name="" ID="{B9CE6481-7673-4735-8775-A9571C192D44}" ShortID="628938678">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="OverWorldDefault" ID="{8A04758F-9338-4EAF-942A-EBBD31DF1437}"/>
+										<CustomState Name="" ID="{2CB8DAA8-5680-467E-A207-D2BD60116C8B}" ShortID="685713678">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
 							<ActiveSourceList>
 								<ActiveSource Name="GnossieneCave" ID="{F1353F4C-1366-4B96-8BF0-A156AFC7FFEC}" Platform="Linked"/>
 							</ActiveSourceList>
@@ -176,6 +301,14 @@
 										</CustomState>
 									</CustomState>
 									<CustomState>
+										<StateRef Name="ChurchCleared" ID="{938F05C7-8FE0-4483-8ABB-36967BE6118A}"/>
+										<CustomState Name="" ID="{6C3633A9-E589-4553-AB94-A638DB340B14}" ShortID="968054973">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
 										<StateRef Name="GraveyardCleared" ID="{2DCC86B4-0C67-4491-85BF-1E458F930D4D}"/>
 										<CustomState Name="" ID="{F60A1493-A547-42FE-A149-E34AA0B66E37}" ShortID="744243633">
 											<PropertyList>
@@ -192,8 +325,32 @@
 										</CustomState>
 									</CustomState>
 									<CustomState>
+										<StateRef Name="GameFinished" ID="{7732DB73-47F6-465F-96A1-BDE269C4FECA}"/>
+										<CustomState Name="" ID="{1182E806-10F8-41B0-975D-F7EB0D1CD10F}" ShortID="726572114">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Title" ID="{AF405DC9-992F-492B-8F1C-F36023EA2FDC}"/>
+										<CustomState Name="" ID="{95526989-C84E-49FA-8F36-470F95388132}" ShortID="252591808">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
 										<StateRef Name="StatueCleared" ID="{50D38B84-26E7-4A50-BFDA-A8BB3A2E4B54}"/>
 										<CustomState Name="" ID="{453DF449-0A54-45B2-B83B-6B161A674E74}" ShortID="553341036">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="InCave" ID="{8FC81EF6-50C3-4B13-B524-322FD164CBF3}"/>
+										<CustomState Name="" ID="{DD210E7A-D83E-4B71-87B6-950DDECEA4B0}" ShortID="52914205">
 											<PropertyList>
 												<Property Name="Volume" Type="Real64" Value="-108"/>
 											</PropertyList>
@@ -266,6 +423,14 @@
 										</CustomState>
 									</CustomState>
 									<CustomState>
+										<StateRef Name="ChurchCleared" ID="{938F05C7-8FE0-4483-8ABB-36967BE6118A}"/>
+										<CustomState Name="" ID="{2BBF119E-5BF8-4338-ACDE-67E124888200}" ShortID="70747329">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
 										<StateRef Name="GraveyardCleared" ID="{2DCC86B4-0C67-4491-85BF-1E458F930D4D}"/>
 										<CustomState Name="" ID="{8E1E465C-BF39-4E38-A0EA-016C7B2F3349}" ShortID="610624338">
 											<PropertyList>
@@ -282,8 +447,32 @@
 										</CustomState>
 									</CustomState>
 									<CustomState>
+										<StateRef Name="GameFinished" ID="{7732DB73-47F6-465F-96A1-BDE269C4FECA}"/>
+										<CustomState Name="" ID="{2EE5AA90-4C6A-418F-B942-6CA8D4BAE1E5}" ShortID="79404700">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Title" ID="{AF405DC9-992F-492B-8F1C-F36023EA2FDC}"/>
+										<CustomState Name="" ID="{CE102978-F4FB-4992-8E8B-207BCD5FC09B}" ShortID="9646861">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
 										<StateRef Name="StatueCleared" ID="{50D38B84-26E7-4A50-BFDA-A8BB3A2E4B54}"/>
 										<CustomState Name="" ID="{7E568540-276E-4B9B-821B-4E0286C3D0A1}" ShortID="907078472">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="InCave" ID="{8FC81EF6-50C3-4B13-B524-322FD164CBF3}"/>
+										<CustomState Name="" ID="{AB74F294-0E68-4615-B2E9-57B280E2BCC3}" ShortID="947773279">
 											<PropertyList>
 												<Property Name="Volume" Type="Real64" Value="-108"/>
 											</PropertyList>
@@ -356,6 +545,14 @@
 										</CustomState>
 									</CustomState>
 									<CustomState>
+										<StateRef Name="ChurchCleared" ID="{938F05C7-8FE0-4483-8ABB-36967BE6118A}"/>
+										<CustomState Name="" ID="{310BBDA5-0B5B-48C2-B249-3015017991AF}" ShortID="1070225988">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
 										<StateRef Name="GraveyardCleared" ID="{2DCC86B4-0C67-4491-85BF-1E458F930D4D}"/>
 										<CustomState Name="" ID="{2CD7547F-A8D1-4FC9-AACD-44CD9B9B393E}" ShortID="246453699">
 											<PropertyList>
@@ -368,8 +565,32 @@
 										<CustomState Name="" ID="{56C2A0F3-F79B-4E35-886E-6C8DA21F49EA}" ShortID="159048814"/>
 									</CustomState>
 									<CustomState>
+										<StateRef Name="GameFinished" ID="{7732DB73-47F6-465F-96A1-BDE269C4FECA}"/>
+										<CustomState Name="" ID="{87C735D1-E6C4-48E8-B1F5-1B7B199B2C09}" ShortID="841692083">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Title" ID="{AF405DC9-992F-492B-8F1C-F36023EA2FDC}"/>
+										<CustomState Name="" ID="{83D6977C-5320-47CC-AEB3-D5A8B08D69A0}" ShortID="72061300">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
 										<StateRef Name="StatueCleared" ID="{50D38B84-26E7-4A50-BFDA-A8BB3A2E4B54}"/>
 										<CustomState Name="" ID="{9C7ACB9B-388F-4F05-8A0A-054BB282B336}" ShortID="20724741">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="InCave" ID="{8FC81EF6-50C3-4B13-B524-322FD164CBF3}"/>
+										<CustomState Name="" ID="{126AE501-95CD-4590-B196-85987B015379}" ShortID="260766430">
 											<PropertyList>
 												<Property Name="Volume" Type="Real64" Value="-108"/>
 											</PropertyList>
@@ -442,6 +663,14 @@
 										</CustomState>
 									</CustomState>
 									<CustomState>
+										<StateRef Name="ChurchCleared" ID="{938F05C7-8FE0-4483-8ABB-36967BE6118A}"/>
+										<CustomState Name="" ID="{78261F29-DB6A-4533-998C-9216D04B9518}" ShortID="737109582">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
 										<StateRef Name="GraveyardCleared" ID="{2DCC86B4-0C67-4491-85BF-1E458F930D4D}"/>
 										<CustomState Name="" ID="{9D5B242E-191A-437E-8A1E-39C353239D6B}" ShortID="53037353">
 											<PropertyList>
@@ -458,8 +687,28 @@
 										</CustomState>
 									</CustomState>
 									<CustomState>
+										<StateRef Name="GameFinished" ID="{7732DB73-47F6-465F-96A1-BDE269C4FECA}"/>
+										<CustomState Name="" ID="{E82ABA28-C071-4FD6-A279-A5AD9655AE39}" ShortID="520826614">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Title" ID="{AF405DC9-992F-492B-8F1C-F36023EA2FDC}"/>
+										<CustomState Name="" ID="{08CA1E74-84DB-40E4-8865-20454B7BBC8E}" ShortID="746725110">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
 										<StateRef Name="StatueCleared" ID="{50D38B84-26E7-4A50-BFDA-A8BB3A2E4B54}"/>
-										<CustomState Name="" ID="{F3E7BB84-8E9C-4F9D-9C78-320E273285F0}" ShortID="803844024">
+										<CustomState Name="" ID="{F3E7BB84-8E9C-4F9D-9C78-320E273285F0}" ShortID="803844024"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="InCave" ID="{8FC81EF6-50C3-4B13-B524-322FD164CBF3}"/>
+										<CustomState Name="" ID="{BA42C90C-1A30-4151-A962-1803AF130697}" ShortID="358713420">
 											<PropertyList>
 												<Property Name="Volume" Type="Real64" Value="-108"/>
 											</PropertyList>
@@ -467,7 +716,11 @@
 									</CustomState>
 									<CustomState>
 										<StateRef Name="MosqueCleared" ID="{83799A78-A960-4E3C-B96D-8CFF15B16EBF}"/>
-										<CustomState Name="" ID="{CC39080B-CEB0-4405-A936-DE1AEA7C2B40}" ShortID="158713346"/>
+										<CustomState Name="" ID="{CC39080B-CEB0-4405-A936-DE1AEA7C2B40}" ShortID="158713346">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
 									</CustomState>
 									<CustomState>
 										<StateRef Name="OverWorldDefault" ID="{8A04758F-9338-4EAF-942A-EBBD31DF1437}"/>
@@ -525,6 +778,14 @@
 										</CustomState>
 									</CustomState>
 									<CustomState>
+										<StateRef Name="ChurchCleared" ID="{938F05C7-8FE0-4483-8ABB-36967BE6118A}"/>
+										<CustomState Name="" ID="{46A07C18-6EFB-4140-89FE-3C0C40890E89}" ShortID="315958547">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
 										<StateRef Name="GraveyardCleared" ID="{2DCC86B4-0C67-4491-85BF-1E458F930D4D}"/>
 										<CustomState Name="" ID="{12996475-2404-4DE2-B627-485EDC1B62CB}" ShortID="697545635"/>
 									</CustomState>
@@ -537,8 +798,32 @@
 										</CustomState>
 									</CustomState>
 									<CustomState>
+										<StateRef Name="GameFinished" ID="{7732DB73-47F6-465F-96A1-BDE269C4FECA}"/>
+										<CustomState Name="" ID="{F4DC731F-71FD-46D9-AC7A-84608B00B05A}" ShortID="156530339">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Title" ID="{AF405DC9-992F-492B-8F1C-F36023EA2FDC}"/>
+										<CustomState Name="" ID="{99B21AA7-55B0-4868-A343-81D701D174F5}" ShortID="98199484">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
 										<StateRef Name="StatueCleared" ID="{50D38B84-26E7-4A50-BFDA-A8BB3A2E4B54}"/>
 										<CustomState Name="" ID="{9A3E8D3C-C8FA-4B7F-BB0C-F6B8836E5D83}" ShortID="866451519">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="InCave" ID="{8FC81EF6-50C3-4B13-B524-322FD164CBF3}"/>
+										<CustomState Name="" ID="{1B31CF2B-1F78-4E9A-BADC-0FADB78555A9}" ShortID="941682254">
 											<PropertyList>
 												<Property Name="Volume" Type="Real64" Value="-108"/>
 											</PropertyList>
@@ -593,7 +878,7 @@
 								<CustomStateList>
 									<CustomState>
 										<StateRef Name="HouseNotCleared" ID="{FEEC891C-5270-418A-A78A-0AAA5E36066F}"/>
-										<CustomState Name="" ID="{B7BFF7F0-57F5-4A27-AFDA-29330751272D}" ShortID="904773213">
+										<CustomState Name="" ID="{313E4FFC-1314-462A-BB2A-4E7C054B3A24}" ShortID="23645015">
 											<PropertyList>
 												<Property Name="Volume" Type="Real64" Value="-108"/>
 											</PropertyList>
@@ -601,7 +886,15 @@
 									</CustomState>
 									<CustomState>
 										<StateRef Name="HouseCleared" ID="{37D9EE6A-0F37-42ED-A6D3-B90F4A9504A1}"/>
-										<CustomState Name="" ID="{F1CB1931-7E11-409E-8886-6D31F0ADD749}" ShortID="685471207">
+										<CustomState Name="" ID="{5045B40E-B830-4CA2-9690-5F4F732362F2}" ShortID="568693026">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="ChurchCleared" ID="{938F05C7-8FE0-4483-8ABB-36967BE6118A}"/>
+										<CustomState Name="" ID="{D857EBF3-4CB8-40C7-B63C-8CB705D0E95A}" ShortID="1028903700">
 											<PropertyList>
 												<Property Name="Volume" Type="Real64" Value="-108"/>
 											</PropertyList>
@@ -609,7 +902,7 @@
 									</CustomState>
 									<CustomState>
 										<StateRef Name="GraveyardCleared" ID="{2DCC86B4-0C67-4491-85BF-1E458F930D4D}"/>
-										<CustomState Name="" ID="{FEDB094B-6A19-4A74-9627-1F3B617FE94C}" ShortID="63984653">
+										<CustomState Name="" ID="{35581DAA-E34F-40F8-AC18-BE2F3175BDA4}" ShortID="917037250">
 											<PropertyList>
 												<Property Name="Volume" Type="Real64" Value="-108"/>
 											</PropertyList>
@@ -617,7 +910,23 @@
 									</CustomState>
 									<CustomState>
 										<StateRef Name="NPCCleared" ID="{48A7C6BB-7F1D-4633-8D73-50FC6B23AD5B}"/>
-										<CustomState Name="" ID="{41EAAB1D-EB92-477C-A3EC-52BB85FBE4AE}" ShortID="687373625">
+										<CustomState Name="" ID="{7A48AF9B-6A6D-472E-B9D3-ACF4DBCCAD26}" ShortID="407750092">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="GameFinished" ID="{7732DB73-47F6-465F-96A1-BDE269C4FECA}"/>
+										<CustomState Name="" ID="{35DE3CD3-C67A-4BC7-9738-00A0D635D9D9}" ShortID="1048328681">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Title" ID="{AF405DC9-992F-492B-8F1C-F36023EA2FDC}"/>
+										<CustomState Name="" ID="{BE852B07-A196-4AEE-8C36-8337F44EE26D}" ShortID="475936906">
 											<PropertyList>
 												<Property Name="Volume" Type="Real64" Value="-108"/>
 											</PropertyList>
@@ -625,7 +934,15 @@
 									</CustomState>
 									<CustomState>
 										<StateRef Name="StatueCleared" ID="{50D38B84-26E7-4A50-BFDA-A8BB3A2E4B54}"/>
-										<CustomState Name="" ID="{F486376C-3B74-4902-9936-15A32DE69AF5}" ShortID="892635133">
+										<CustomState Name="" ID="{12B807B6-D316-4BA8-BF85-50FBFC064004}" ShortID="290169136">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="InCave" ID="{8FC81EF6-50C3-4B13-B524-322FD164CBF3}"/>
+										<CustomState Name="" ID="{78038F29-6D40-48AB-85AF-8C7B81D49DAE}" ShortID="206599873">
 											<PropertyList>
 												<Property Name="Volume" Type="Real64" Value="-108"/>
 											</PropertyList>
@@ -633,11 +950,11 @@
 									</CustomState>
 									<CustomState>
 										<StateRef Name="MosqueCleared" ID="{83799A78-A960-4E3C-B96D-8CFF15B16EBF}"/>
-										<CustomState Name="" ID="{ABF8878B-856B-413A-B992-3E563BB25843}" ShortID="1054769280"/>
+										<CustomState Name="" ID="{507C061C-04EC-4139-B95B-5C6DBD29C2BE}" ShortID="652754193"/>
 									</CustomState>
 									<CustomState>
 										<StateRef Name="OverWorldDefault" ID="{8A04758F-9338-4EAF-942A-EBBD31DF1437}"/>
-										<CustomState Name="" ID="{30060527-64CD-4ADC-A6BC-F397F28F58AE}" ShortID="565716122">
+										<CustomState Name="" ID="{43E0B0FC-2AF0-4C3F-8F7E-5CA8F00EBCBD}" ShortID="480501649">
 											<PropertyList>
 												<Property Name="Volume" Type="Real64" Value="-108"/>
 											</PropertyList>
@@ -649,11 +966,367 @@
 								<ActiveSource Name="Furniture music" ID="{166820BA-0A5D-46C5-91EC-14D6A70525D8}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
+						<Sound Name="Gymno" ID="{9AF89149-4CAA-4CFB-9BEC-78CD1AF7BE19}" ShortID="574223292">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D569C11E-303E-4C8B-9260-22A4C3E4FA04}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C3973E43-3F60-4756-A9AB-61D45AA7DA3A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Gymno" ID="{A68DB2E9-3D4C-429F-8805-6AFB512BFB45}">
+									<Language>SFX</Language>
+									<AudioFile>Gymno.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="32865663"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="Regions" ID="{2BF5CA89-D078-4658-88A7-A3796D466EB1}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="HouseNotCleared" ID="{FEEC891C-5270-418A-A78A-0AAA5E36066F}"/>
+										<CustomState Name="" ID="{9C52E11D-779F-4D26-AFA9-EC4E768EC787}" ShortID="963719716">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="HouseCleared" ID="{37D9EE6A-0F37-42ED-A6D3-B90F4A9504A1}"/>
+										<CustomState Name="" ID="{54E9EDCA-2311-428F-AEFE-A5F23C6F4B10}" ShortID="717440124">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="ChurchCleared" ID="{938F05C7-8FE0-4483-8ABB-36967BE6118A}"/>
+										<CustomState Name="" ID="{D797CC29-7527-430D-B006-ABEE0FCA0AAE}" ShortID="642921428">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="GraveyardCleared" ID="{2DCC86B4-0C67-4491-85BF-1E458F930D4D}"/>
+										<CustomState Name="" ID="{7E500D1D-7458-4564-9067-51290EE7EE66}" ShortID="585060490">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="NPCCleared" ID="{48A7C6BB-7F1D-4633-8D73-50FC6B23AD5B}"/>
+										<CustomState Name="" ID="{36EE5EDD-FF92-48A0-A6DD-1C6702FCA3AB}" ShortID="355548373">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="GameFinished" ID="{7732DB73-47F6-465F-96A1-BDE269C4FECA}"/>
+										<CustomState Name="" ID="{D27CC29F-6836-474C-81BB-94620577034E}" ShortID="408736863"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Title" ID="{AF405DC9-992F-492B-8F1C-F36023EA2FDC}"/>
+										<CustomState Name="" ID="{40538A72-EA83-45D8-8408-F74B3F310AFB}" ShortID="283291244">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="StatueCleared" ID="{50D38B84-26E7-4A50-BFDA-A8BB3A2E4B54}"/>
+										<CustomState Name="" ID="{50D3079D-7CE8-44DA-AEFA-0AB8408B959A}" ShortID="438972668">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="InCave" ID="{8FC81EF6-50C3-4B13-B524-322FD164CBF3}"/>
+										<CustomState Name="" ID="{86473B62-8231-4852-8EA4-C7CB60558B61}" ShortID="317920507">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="MosqueCleared" ID="{83799A78-A960-4E3C-B96D-8CFF15B16EBF}"/>
+										<CustomState Name="" ID="{1B8B5F53-E5BA-4046-8415-13DD56685137}" ShortID="181237156">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="OverWorldDefault" ID="{8A04758F-9338-4EAF-942A-EBBD31DF1437}"/>
+										<CustomState Name="" ID="{1E999D0B-1BB6-48B6-800D-8A987C3B0D94}" ShortID="974635473">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
+							<ActiveSourceList>
+								<ActiveSource Name="Gymno" ID="{A68DB2E9-3D4C-429F-8805-6AFB512BFB45}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="AvantDP" ID="{964AC2B6-9693-4230-AF83-21E8D6D9BB3A}" ShortID="398626682">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>7</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D569C11E-303E-4C8B-9260-22A4C3E4FA04}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C3973E43-3F60-4756-A9AB-61D45AA7DA3A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="AvantDP" ID="{F6A35A08-50F0-4418-801F-5174623AF207}">
+									<Language>SFX</Language>
+									<AudioFile>AvantDP.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="963456134"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="Regions" ID="{2BF5CA89-D078-4658-88A7-A3796D466EB1}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="HouseNotCleared" ID="{FEEC891C-5270-418A-A78A-0AAA5E36066F}"/>
+										<CustomState Name="" ID="{E822DE18-9E27-450B-B93A-2F278E4FE049}" ShortID="252745561">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="HouseCleared" ID="{37D9EE6A-0F37-42ED-A6D3-B90F4A9504A1}"/>
+										<CustomState Name="" ID="{919677E2-C744-48C2-A4D9-1E26AFFE9DA0}" ShortID="828331865">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="ChurchCleared" ID="{938F05C7-8FE0-4483-8ABB-36967BE6118A}"/>
+										<CustomState Name="" ID="{8FEE0446-402D-488C-BE44-B9EA95A1274C}" ShortID="776635585">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="GraveyardCleared" ID="{2DCC86B4-0C67-4491-85BF-1E458F930D4D}"/>
+										<CustomState Name="" ID="{BCD01AC3-E6F9-418A-9BCE-6D444370C85D}" ShortID="635082834">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="NPCCleared" ID="{48A7C6BB-7F1D-4633-8D73-50FC6B23AD5B}"/>
+										<CustomState Name="" ID="{CAEF2D71-6148-493A-BEFD-F7F86141FA35}" ShortID="271703470">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="GameFinished" ID="{7732DB73-47F6-465F-96A1-BDE269C4FECA}"/>
+										<CustomState Name="" ID="{867AC5AA-C632-4D3E-ACE7-7AC0F3560243}" ShortID="275154125">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Title" ID="{AF405DC9-992F-492B-8F1C-F36023EA2FDC}"/>
+										<CustomState Name="" ID="{A4A8E8E7-B3C0-4E8C-A6A5-C5FD95ED5B2D}" ShortID="912526401"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="StatueCleared" ID="{50D38B84-26E7-4A50-BFDA-A8BB3A2E4B54}"/>
+										<CustomState Name="" ID="{B5284B07-905F-4375-A93F-F09B03422D30}" ShortID="447557576">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="InCave" ID="{8FC81EF6-50C3-4B13-B524-322FD164CBF3}"/>
+										<CustomState Name="" ID="{2BEC4D65-BEF5-44AF-820C-9684FA85AEE1}" ShortID="687044838">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="MosqueCleared" ID="{83799A78-A960-4E3C-B96D-8CFF15B16EBF}"/>
+										<CustomState Name="" ID="{552F2207-9CC2-479C-9BCA-AE9301B9FDE1}" ShortID="927680467">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="OverWorldDefault" ID="{8A04758F-9338-4EAF-942A-EBBD31DF1437}"/>
+										<CustomState Name="" ID="{00A5A32B-09C4-4391-B00D-C0256E1ABBE4}" ShortID="293400594">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
+							<ActiveSourceList>
+								<ActiveSource Name="AvantDP" ID="{F6A35A08-50F0-4418-801F-5174623AF207}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Premiere Pensee" ID="{75C5F3ED-0C8A-4B4C-A121-7D8233821B01}" ShortID="667681919">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{D569C11E-303E-4C8B-9260-22A4C3E4FA04}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C3973E43-3F60-4756-A9AB-61D45AA7DA3A}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Premiere Pensee" ID="{B28428E3-8D61-47F7-94A5-ABA586ADF6F0}">
+									<Language>SFX</Language>
+									<AudioFile>Premiere Pensee.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="275482760"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="Regions" ID="{2BF5CA89-D078-4658-88A7-A3796D466EB1}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="HouseNotCleared" ID="{FEEC891C-5270-418A-A78A-0AAA5E36066F}"/>
+										<CustomState Name="" ID="{80D4AE93-2149-4C94-A5BB-3840051FEC3D}" ShortID="985557261">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="HouseCleared" ID="{37D9EE6A-0F37-42ED-A6D3-B90F4A9504A1}"/>
+										<CustomState Name="" ID="{BC02B4F5-376F-432B-86C7-6AD76597DFE8}" ShortID="700048986">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="ChurchCleared" ID="{938F05C7-8FE0-4483-8ABB-36967BE6118A}"/>
+										<CustomState Name="" ID="{74B5F322-57EF-42CA-B0FF-3019DEAC9255}" ShortID="542470411"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="GraveyardCleared" ID="{2DCC86B4-0C67-4491-85BF-1E458F930D4D}"/>
+										<CustomState Name="" ID="{9C29F2F4-C69B-4648-9626-F405CFD6A7EB}" ShortID="75286294">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="NPCCleared" ID="{48A7C6BB-7F1D-4633-8D73-50FC6B23AD5B}"/>
+										<CustomState Name="" ID="{67CF4E8F-B682-4F20-B468-22A0679464E5}" ShortID="50410985">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="GameFinished" ID="{7732DB73-47F6-465F-96A1-BDE269C4FECA}"/>
+										<CustomState Name="" ID="{99F9E6F2-5F4E-4B49-9393-82897B596CFF}" ShortID="637306230">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Title" ID="{AF405DC9-992F-492B-8F1C-F36023EA2FDC}"/>
+										<CustomState Name="" ID="{AC0736CE-A859-4B1C-9B01-5CEBB38A28FC}" ShortID="311604244">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="StatueCleared" ID="{50D38B84-26E7-4A50-BFDA-A8BB3A2E4B54}"/>
+										<CustomState Name="" ID="{BE7CB876-26FA-4FCB-B703-B1287864C322}" ShortID="1001422815">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="InCave" ID="{8FC81EF6-50C3-4B13-B524-322FD164CBF3}"/>
+										<CustomState Name="" ID="{D2A6F7B3-D335-44C5-9ADD-2F94EEFBD7F6}" ShortID="631185170">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="MosqueCleared" ID="{83799A78-A960-4E3C-B96D-8CFF15B16EBF}"/>
+										<CustomState Name="" ID="{9062A614-58E4-46EF-8D9F-8CF75F770BAB}" ShortID="265623176">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="OverWorldDefault" ID="{8A04758F-9338-4EAF-942A-EBBD31DF1437}"/>
+										<CustomState Name="" ID="{F55F9238-8BA0-4225-BFEB-D7787970E643}" ShortID="845701323">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
+							<ActiveSourceList>
+								<ActiveSource Name="Premiere Pensee" ID="{B28428E3-8D61-47F7-94A5-ABA586ADF6F0}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 					<GroupingInfo>
 						<GroupingBehaviorList>
 							<GroupingBehavior>
 								<ItemRef Name="PearForm" ID="{831F8308-ED88-4094-9A4A-B6E54F3CB557}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="Gymno" ID="{9AF89149-4CAA-4CFB-9BEC-78CD1AF7BE19}"/>
 							</GroupingBehavior>
 							<GroupingBehavior>
 								<ItemRef Name="GnossieneCave" ID="{BA04DC4A-B57A-4FE7-986A-CAFA690FA1A3}"/>
@@ -668,6 +1341,9 @@
 								<ItemRef Name="The Real Statue breh" ID="{8FE82892-2A88-4E7B-BCCC-9C16E88FDF15}"/>
 							</GroupingBehavior>
 							<GroupingBehavior>
+								<ItemRef Name="AvantDP" ID="{964AC2B6-9693-4230-AF83-21E8D6D9BB3A}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
 								<ItemRef Name="Gnossiene" ID="{72588CDF-082E-43C0-A851-72DA8E9EBE8E}"/>
 							</GroupingBehavior>
 							<GroupingBehavior>
@@ -675,6 +1351,9 @@
 							</GroupingBehavior>
 							<GroupingBehavior>
 								<ItemRef Name="HouseGnossiene" ID="{A39884ED-2388-4EE7-A8B0-7EF311F4085A}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="Premiere Pensee" ID="{75C5F3ED-0C8A-4B4C-A121-7D8233821B01}"/>
 							</GroupingBehavior>
 						</GroupingBehaviorList>
 						<GroupingList>
